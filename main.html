@@ -3,15 +3,15 @@
     <title>Trivia Tracker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="/public/css/jass.css">
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="./public/css/jass.css">
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: rgb(16, 183, 86); --bs-text-opacity: .5;">
+        <div class="container-fluid" id="navbarNav">
             <a class="navbar-brand" href="#">Trivia Tracker</a>
-            <div class="collapse navbar-collapse navbar-text text-end" id="navbarNav">
+            <div class="collapse navbar-collapse navbar-text">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Login</a>
@@ -30,15 +30,35 @@
         </div>
     </nav>
     <div>
-        <main>           
-            <div class="card" style="width: 18rem;">
-                <img src="/assets/Trivia Night.jpeg" class="card-img-top" alt="trivia night">
-                <div class="card-body">
-                  <h5 class="card-title">{{trivia.question}}</h5>
-                  <p class="card-text">{{trivia.answers}} </p>
-                  <a href="#" class="btn btn-primary">submit button here?</a>
+        <main>
+            <div class="row">
+                <img src="./assets/quiz-night.gif" class="trivia-gif col-5 img-fluid" alt="trivia night">
+                <!-- {{#each trivia.choices as choices}} -->
+                <div class="trivia-card mx-auto p-5" style="width: 18rem;">
+                    <h5 class="card-title trivia-card-header text-center">{{trivia.question}}</h5>
+                    <div class="text-center questions">
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <div class="container"><button class="rounded-pill" style="background-color: #389393;"
+                                    id="choiceOne" data-index="0">{{trivia.choices[0]}}</button></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="container"><button class="rounded-pill" style="background-color: #389393;"
+                                    id="choiceTwo" data-index="1">{{trivia.choices[1]}}</button></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="container"><button class="rounded-pill" style="background-color: #389393;"
+                                    id="choiceThree" data-index="2">{{trivia.choices[2]}}</button></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="container"><button class="rounded-pill" style="background-color: #389393;"
+                                    id="choiceFour" data-index="3">{{trivia.choices[3]}}</button></div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!-- {{/each}} -->
+            </div>
         </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

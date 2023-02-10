@@ -1,3 +1,1802 @@
 [
-
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the &quot;A Song of Ice And Fire&quot; fantasy novel series?",
+        "correct_answer": "George R. R. Martin",
+        "incorrect_answers": [
+            "George Lucas",
+            "George Orwell",
+            "George Eliot"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which author and poet famously wrote the line, &quot;The female of the species is more deadly than the male&quot;?",
+        "correct_answer": "Rudyard Kipling",
+        "incorrect_answers": [
+            "Edgar Allan Poe",
+            "William Shakespeare",
+            "William Wordsworth"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
+        "correct_answer": "Badger",
+        "incorrect_answers": [
+            "Fox",
+            "Frog",
+            "Rabbit"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which famous book is sub-titled &#039;The Modern Prometheus&#039;?",
+        "correct_answer": "Frankenstein",
+        "incorrect_answers": [
+            "Dracula",
+            "The Strange Case of Dr. Jekyll and Mr. Hyde ",
+            "The Legend of Sleepy Hollow"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many books are in the Chronicles of Narnia series?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "5"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of Captain Nemo&#039;s submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+        "correct_answer": "The Nautilus",
+        "incorrect_answers": [
+            "The Neptune",
+            "The Poseidon  ",
+            "The Atlantis"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following is the world&#039;s best-selling book?",
+        "correct_answer": "The Lord of the Rings",
+        "incorrect_answers": [
+            "The Little Prince",
+            "Harry Potter and the Philosopher&#039;s Stone",
+            "The Da Vinci Code"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?",
+        "correct_answer": "Ira Levin",
+        "incorrect_answers": [
+            "Stephen King",
+            "Robert Bloch",
+            "Mary Shelley"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+        "correct_answer": "Astoria Greengrass",
+        "incorrect_answers": [
+            "Pansy Parkinson",
+            "Millicent Bulstrode",
+            "Hermione Granger"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is Hermione Granger&#039;s middle name?",
+        "correct_answer": "Jean",
+        "incorrect_answers": [
+            "Jane",
+            "Emma",
+            "Jo"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What position does Harry Potter play in Quidditch?",
+        "correct_answer": "Seeker",
+        "incorrect_answers": [
+            "Beater",
+            "Chaser",
+            "Keeper"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, &#039;Oliver Twist&#039;?",
+        "correct_answer": "The Artful Dodger",
+        "incorrect_answers": [
+            "Fagin",
+            "Bull&rsquo;s-eye",
+            "Mr. Fang"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who wrote the novel &#039;Fear And Loathing In Las Vegas&#039;?",
+        "correct_answer": "Hunter S. Thompson",
+        "incorrect_answers": [
+            "F. Scott Fitzgerald",
+            "Henry Miller",
+            "William S. Burroughs"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Abel Magwitch is a character from which Charles Dickens novel?",
+        "correct_answer": "Great Expectations",
+        "incorrect_answers": [
+            "The Pickwick Papers",
+            "Nicholas Nickleby",
+            "Oliver Twist"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "By what name was the author Eric Blair better known?",
+        "correct_answer": "George Orwell",
+        "incorrect_answers": [
+            "Aldous Huxley",
+            "Ernest Hemingway",
+            "Ray Bradbury"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who wrote the children&#039;s story &quot;The Little Match Girl&quot;?",
+        "correct_answer": "Hans Christian Andersen",
+        "incorrect_answers": [
+            "Charles Dickens",
+            "Lewis Carroll",
+            "Oscar Wilde"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many Harry Potter books are there?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "8",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+        "correct_answer": "Richard Bachman",
+        "incorrect_answers": [
+            "J. D. Robb",
+            "Mark Twain",
+            "Lewis Carroll"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What&#039;s Harry Potter&#039;s dad&#039;s name?",
+        "correct_answer": "James Potter",
+        "incorrect_answers": [
+            "Joey Potter",
+            "Frank Potter",
+            "Hairy Potter Sr."
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "The novel &quot;Jane Eyre&quot; was written by what author? ",
+        "correct_answer": "Charlotte Bront&euml;",
+        "incorrect_answers": [
+            "Emily Bront&euml;",
+            "Jane Austen",
+            "Louisa May Alcott"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The novel &quot;Of Mice And Men&quot; was written by what author? ",
+        "correct_answer": "John Steinbeck ",
+        "incorrect_answers": [
+            "George Orwell",
+            "Mark Twain ",
+            "Harper Lee"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer&#039;s Stone?",
+        "correct_answer": "Fluffy",
+        "incorrect_answers": [
+            "Spike",
+            "Poofy",
+            "Spot"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+        "correct_answer": "A Study in Scarlet",
+        "incorrect_answers": [
+            "The Sign of the Four",
+            "A Case of Identity",
+            "The Doings of Raffles Haw"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+        "correct_answer": "John Steinbeck",
+        "incorrect_answers": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "William Faulkner"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these book series is by James Patterson?",
+        "correct_answer": "Maximum Ride",
+        "incorrect_answers": [
+            "Harry Potter",
+            "The Legend of Xanth",
+            "The Bartemaeus Trilogy"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+        "correct_answer": "Answer a riddle",
+        "incorrect_answers": [
+            "Rhythmically tap barrels with a wand",
+            "Speak a password",
+            "Knock in sequence"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+        "correct_answer": "The Greasers",
+        "incorrect_answers": [
+            "The Outsiders",
+            "The Mafia",
+            "The Socs"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+        "correct_answer": "The Dresden Files",
+        "incorrect_answers": [
+            "A Hat in Time",
+            "The Cinder Spires",
+            "My Life as a Teenage Wizard"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the make and model of the tour vehicles in &quot;Jurassic Park&quot; (1990)?",
+        "correct_answer": "1989 Toyota Land Cruiser",
+        "incorrect_answers": [
+            "1989 Jeep Wrangler YJ Sahar",
+            "1989 Ford Explorer XLT",
+            "Mercedes M-Class"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the book series &quot;Odd Thomas&quot;, Danny Jessup has what genetic disease? ",
+        "correct_answer": " Osteogenesis Imperfecta",
+        "incorrect_answers": [
+            "Spinocerebellar ataxia",
+            "Adrenoleukodystrophy",
+            "Cystic Fibrosis"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In Margaret Atwood&#039;s &quot;The Handmaid&#039;s Tale&quot;, what is Offred&#039;s real name is implied to be?",
+        "correct_answer": "June",
+        "incorrect_answers": [
+            "August",
+            "April",
+            "May"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following was the author of &quot;Username Evie&quot;?",
+        "correct_answer": "Joe Sugg",
+        "incorrect_answers": [
+            "Zoe Sugg",
+            "Joe Weller",
+            "Alfie Deyes"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+        "correct_answer": "Terisiare",
+        "incorrect_answers": [
+            "Aerona",
+            "Shiv",
+            "Jamuraa"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+        "correct_answer": "Ulgrotha",
+        "incorrect_answers": [
+            "Bant",
+            "Llanowar",
+            "Tazeem"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Alice in Wonderland, what is the name of Alice&#039;s kitten?",
+        "correct_answer": "Dinah",
+        "incorrect_answers": [
+            "Oscar",
+            "Heath",
+            "Smokey"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What&#039;s the second book in George R. R. Martin&#039;s &#039;A Song of Ice and Fire&#039; series?",
+        "correct_answer": "A Clash of Kings",
+        "incorrect_answers": [
+            "A Dance with Dragons",
+            "A Storm of Swords",
+            "A Feast for Crows"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In which classic novel is there a character named Homer Simpson?",
+        "correct_answer": "The Day of the Locust",
+        "incorrect_answers": [
+            "Catch-22",
+            "Of Mice and Men",
+            "A Separate Peace"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+        "correct_answer": "SCP-173",
+        "incorrect_answers": [
+            "SCP-001",
+            "SCP-999",
+            "SCP-1459"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which is NOT a book in the Harry Potter Series?",
+        "correct_answer": "The House Elf",
+        "incorrect_answers": [
+            "The Chamber of Secrets",
+            "The Prisoner of Azkaban",
+            "The Deathly Hallows"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the novel 1984, written by George Orwell, what is the name of the totalitarian regime that controls Oceania?",
+        "correct_answer": "INGSOC",
+        "incorrect_answers": [
+            "Neo-Bolshevism",
+            "Obliteration of the Self",
+            "Earth Alliance"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+        "correct_answer": "Camino Island",
+        "incorrect_answers": [
+            "Rogue Lawyer",
+            "Gray Mountain",
+            "The Litigators"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+        "correct_answer": "Wessex",
+        "incorrect_answers": [
+            "Barsetshire",
+            "Fulchester",
+            "Ambridge"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Terry Pratchett&#039;s Discworld novel &#039;Wyrd Sisters&#039;, which of these are not one of the three main witches?",
+        "correct_answer": "Winny Hathersham",
+        "incorrect_answers": [
+            "Granny Weatherwax",
+            "Nanny Ogg",
+            "Magrat Garlick"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the author of the series &quot;Malazan Book of the Fallen&quot;?",
+        "correct_answer": "Steven Erikson",
+        "incorrect_answers": [
+            "Ian Cameron Esslemont",
+            "George R. R. Martin",
+            "J. R. R. Tolkien"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+        "correct_answer": "Anna Karenina",
+        "incorrect_answers": [
+            "Notes from the Underground",
+            "Crime and Punishment",
+            "The Brothers Karamazov"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who wrote &quot;A Tale of Two Cities&quot;?",
+        "correct_answer": "Charles Dickens",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Mark Twain",
+            "Roald Dahl"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which Russian author wrote the epic novel War and Peace?",
+        "correct_answer": "Leo Tolstoy",
+        "incorrect_answers": [
+            "Fyodor Dostoyevsky",
+            "Alexander Pushkin",
+            "Vladimir Nabokov"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In The Lies Of Locke Lamora, what does &quot;Lamora&quot; mean in Throne Therin?",
+        "correct_answer": "Shadow",
+        "incorrect_answers": [
+            "Thievery",
+            "Justice",
+            "Chaos"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+        "correct_answer": "The Thorn of Camorr",
+        "incorrect_answers": [
+            "The Rose of the Marrows",
+            "The Thorn of Emberlain",
+            "The Thorn of the Marrows"
+        ]
+    },
+    {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?",
+        "correct_answer": "Zhao Yun",
+        "incorrect_answers": [
+            "Liu Bei",
+            "Guan Yu",
+            "Zhang Fei"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is NOT a quote from the 1942 film Casablanca? ",
+        "correct_answer": "&quot;Frankly, my dear, I don&#039;t give a damn.&quot;",
+        "incorrect_answers": [
+            "&quot;Here&#039;s lookin&#039; at you, kid.&quot;",
+            "&ldquo;Of all the gin joints, in all the towns, in all the world, she walks into mine&hellip;&rdquo;",
+            "&quot;Round up the usual suspects.&quot;"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following was not one of &quot;The Magnificent Seven&quot;?",
+        "correct_answer": "Clint Eastwood",
+        "incorrect_answers": [
+            "Steve McQueen",
+            "Charles Bronson",
+            "Robert Vaughn"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?",
+        "correct_answer": "Wilson",
+        "incorrect_answers": [
+            "Friday",
+            "Jones",
+            "Billy"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When was the movie &#039;Con Air&#039; released?",
+        "correct_answer": "1997",
+        "incorrect_answers": [
+            "1985",
+            "1999",
+            "1990"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Velma Kelly and Roxie Hart are the protagonists of which Oscar winning movie?",
+        "correct_answer": "Chicago",
+        "incorrect_answers": [
+            "Dreamgirls",
+            "Cabaret",
+            "All That Jazz"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who starred in the film 1973 movie &quot;Enter The Dragon&quot;?",
+        "correct_answer": "Bruce Lee",
+        "incorrect_answers": [
+            "Jackie Chan",
+            "Jet Li",
+            " Yun-Fat Chow"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the 1984 movie &quot;The Terminator&quot;, what model number is the Terminator portrayed by Arnold Schwarzenegger?",
+        "correct_answer": "T-800",
+        "incorrect_answers": [
+            "I-950",
+            "T-888",
+            "T-1000"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which 1955 film does Frank Sinatra play Nathan Detroit?",
+        "correct_answer": "Guys and Dolls",
+        "incorrect_answers": [
+            "Anchors Aweigh",
+            "From Here to Eternity",
+            "High Society"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+        "correct_answer": "Highlander",
+        "incorrect_answers": [
+            "Flash Gordon",
+            "Labyrinth",
+            "Howard the Duck"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which African country was the 2006 film &#039;Blood Diamond&#039; mostly set in?",
+        "correct_answer": "Sierra Leone",
+        "incorrect_answers": [
+            "Liberia",
+            "Burkina Faso",
+            "Central African Republic"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the orange and white bot&#039;s name in &quot;Star Wars: The Force Awakens&quot;?",
+        "correct_answer": "BB-8",
+        "incorrect_answers": [
+            "BB-3",
+            "AA-A",
+            "R2-D2"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year was the first Transformers movie released?",
+        "correct_answer": "1986",
+        "incorrect_answers": [
+            "2007",
+            "1984",
+            "2009"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of the planet in &quot;Aliens&quot;?",
+        "correct_answer": "LV-426",
+        "incorrect_answers": [
+            "Weyland Yutani Corporation Base",
+            "FR-838",
+            "DI-621"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these movies did Jeff Bridges not star in?",
+        "correct_answer": "The Hateful Eight",
+        "incorrect_answers": [
+            "Tron: Legacy",
+            "The Giver",
+            "True Grit"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which movie sequel had improved box office results compared to its original film?",
+        "correct_answer": "Toy Story 2",
+        "incorrect_answers": [
+            "Sin City: A Dame to Kill For",
+            "Speed 2: Cruise Control",
+            "Son of the Mask"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which iconic character is featured in movies such as &quot;The Enforcer&quot;, &quot;Sudden Impact&quot;, and &quot;The Dead Pool&quot;?",
+        "correct_answer": "Dirty Harry",
+        "incorrect_answers": [
+            "Indiana Jones",
+            "James Bond",
+            "Harry Potter"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who plays the Nemesis in the Resident Evil movies?",
+        "correct_answer": "Matthew Taylor",
+        "incorrect_answers": [
+            "Jason Dip",
+            "Eric Mabius",
+            "Jimmy Matts"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In what Disney movie can you spot the character &quot;Pac-Man&quot; in if you look closely enough in some scenes?",
+        "correct_answer": "Tron",
+        "incorrect_answers": [
+            "Big Hero 6",
+            "Fantasia",
+            "Monsters, Inc."
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the oldest Disney film?",
+        "correct_answer": "Snow White and the Seven Dwarfs",
+        "incorrect_answers": [
+            "Pinocchio",
+            "Dumbo",
+            "Fantasia"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which one of these action movies are shot entirely in one take?",
+        "correct_answer": "Victoria",
+        "incorrect_answers": [
+            "Ip Man 2",
+            "The Bourne Legacy",
+            "L&eacute;on: The Professional"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which movie of film director Stanley Kubrick is known to be an adaptation of a Stephen King novel?",
+        "correct_answer": "The Shining",
+        "incorrect_answers": [
+            "2001: A Space Odyssey",
+            " Dr. Strangelove ",
+            "Eyes Wide Shut"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python&#039;s Life of Brian?",
+        "correct_answer": "Romani Ite Domum",
+        "incorrect_answers": [
+            "Romans Go Home",
+            "Roxani Ite Domum",
+            "Tomate Ite Domum"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+        "correct_answer": "Ewan McGregor",
+        "incorrect_answers": [
+            "Alec Guinness",
+            "Hayden Christensen",
+            "Liam Neeson"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
+        "correct_answer": "Tom Bombadil",
+        "incorrect_answers": [
+            "Strider",
+            "Barliman Butterbur",
+            "Celeborn"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of the actor who played Leatherface in the 1974 horror film, The Texas Chainsaw Massacre?",
+        "correct_answer": "Gunnar Hansen",
+        "incorrect_answers": [
+            "Edwin Neal",
+            "John Dugan",
+            "Joe Bill Hogan"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who played the Cenobite called &quot;Pinhead&quot; in the original Hellraiser films?",
+        "correct_answer": "Doug Bradley",
+        "incorrect_answers": [
+            "Doug Jones",
+            "Doug Savant",
+            "Doug Benson"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+        "correct_answer": "Jonathan Demme",
+        "incorrect_answers": [
+            "Stanley Kubrick",
+            "Frank Darabont",
+            "Michael Bay"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In &quot;Star Trek Nemesis&quot;, why was Praetor Shinzon created?",
+        "correct_answer": "To replace Picard as a Romulan Agent",
+        "incorrect_answers": [
+            "To destroy the Enterprise",
+            "To become Picard&#039;s friend ",
+            "To steal the Enterprise"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Leonardo Di Caprio won his first Best Actor Oscar for his performance in which film?",
+        "correct_answer": "The Revenant",
+        "incorrect_answers": [
+            "The Wolf Of Wall Street",
+            "Shutter Island",
+            "Inception"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which documentary film maker wrote and starred in the film &quot;My Scientology Movie&quot; which first debuted in 2015?",
+        "correct_answer": "Louis Theroux",
+        "incorrect_answers": [
+            "Errol Morris",
+            "Joe Berlinger",
+            "Adam Curtis"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "For the film &quot;Raiders of The Lost Ark&quot;, what was Harrison Ford sick with during the filming of the Cairo chase?",
+        "correct_answer": "Dysentery",
+        "incorrect_answers": [
+            "Anemia",
+            "Constipation",
+            "Acid Reflux "
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which actor plays the character &quot;Tommy Jarvis&quot; in &quot;Friday the 13th: The Final Chapter&quot; (1984)?",
+        "correct_answer": "Corey Feldman",
+        "incorrect_answers": [
+            "Macaulay Culkin",
+            "Mel Gibson",
+            "Mark Hamill"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
+        "correct_answer": "Gopher",
+        "incorrect_answers": [
+            "Tigger",
+            "Heffalumps",
+            "Rabbit"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Friday The 13th series, what is Jason&#039;s mother&#039;s first name?",
+        "correct_answer": "Pamela",
+        "incorrect_answers": [
+            "Mary",
+            "Christine",
+            "Angeline"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Friday The 13th series, what year did Jason drown in?",
+        "correct_answer": "1957",
+        "incorrect_answers": [
+            "1955",
+            "1953",
+            "1959"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Where does the original Friday The 13th movie take place?",
+        "correct_answer": "Camp Crystal Lake",
+        "incorrect_answers": [
+            "Packanack",
+            "Higgins Haven",
+            "Camp Forest Green"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What film did James Cameron&#039;s Avatar dethrone as the highest-grossing film ever?",
+        "correct_answer": "Titanic",
+        "incorrect_answers": [
+            "Star Wars",
+            "Gone with the Wind",
+            "Jaws"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these Disney classics was released in 1970?",
+        "correct_answer": "The Aristocats",
+        "incorrect_answers": [
+            "One Hundred and One Dalmatians",
+            "The Fox and the Hound",
+            "The Little Mermaid"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which 90&#039;s comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?",
+        "correct_answer": "Wayne&#039;s World",
+        "incorrect_answers": [
+            "Bill &amp; Ted&#039;s Excellent Adventure",
+            "Dumb and Dumber",
+            "Austin Powers: International Man of Mystery"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?",
+        "correct_answer": "Ming Tea",
+        "incorrect_answers": [
+            "Cough Fi",
+            "Spear Mint",
+            "Mister E"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which 1994 film did Roger Ebert famously despise, saying &quot;I hated hated hated hated hated this movie&quot;.",
+        "correct_answer": "North",
+        "incorrect_answers": [
+            "3 Ninjas Kick Back",
+            "The Santa Clause",
+            "Richie Rich"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which actor and martial artist starred as Colonel Guile in the 1994 action film adaptation of Street Fighter?",
+        "correct_answer": "Jean-Claude Van Damme",
+        "incorrect_answers": [
+            "Chuck Norris",
+            "Steven Seagal",
+            "Scott Adkins"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who did the score to the original Blade Runner?",
+        "correct_answer": "Vangelis",
+        "incorrect_answers": [
+            "Kitaro",
+            "Yanni",
+            "Enya"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "After India, which country produces the second most movies per year?",
+        "correct_answer": "Nigeria",
+        "incorrect_answers": [
+            "United States",
+            "China",
+            "France"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the foley artist who designed the famous sounds of Star Wars, including Chewbacca&#039;s roar and R2-D2&#039;s beeps and whistles?",
+        "correct_answer": "Ben Burtt",
+        "incorrect_answers": [
+            "Ken Burns",
+            "Ralph McQuarrie",
+            "Miranda Keyes"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the birth name of Michael Keaton?",
+        "correct_answer": "Michael Douglas",
+        "incorrect_answers": [
+            "Michael Fox",
+            "Michael Richards",
+            "Michael Kane"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The killer in the 1981 film &#039;My Bloody Valentine&#039; wears what sort of outfit?",
+        "correct_answer": "Mining gear",
+        "incorrect_answers": [
+            "Clown costume",
+            "Santa suit",
+            "Police uniform"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the Mad Max franchise, what type of car is the Pursuit Special driven by Max?",
+        "correct_answer": "Ford Falcon",
+        "incorrect_answers": [
+            "Holden Monaro",
+            "Chrysler Valiant Charger",
+            "Pontiac Firebird"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these films is NOT set in Los Angeles?",
+        "correct_answer": "RoboCop",
+        "incorrect_answers": [
+            "Blade Runner",
+            "The Terminator",
+            "Predator 2"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Star Wars, what&#039;s the name of the new Government created after the defeat of the Galactic Empire?",
+        "correct_answer": "The New Republic",
+        "incorrect_answers": [
+            "The Rebel Alliance",
+            "The Crimson Dawn",
+            "The First Order"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "From what show is the character &quot;James Doakes&quot;? ",
+        "correct_answer": "Dexter",
+        "incorrect_answers": [
+            "Marvel&#039;s Daredevil",
+            "Boardwalk Empire",
+            "The Walking Dead"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the TV series &quot;Person of Interest&quot;, who plays the character &quot;Harold Finch&quot;?",
+        "correct_answer": "Michael Emerson",
+        "incorrect_answers": [
+            "Jim Caviezel",
+            "Taraji P. Henson",
+            "Kevin Chapman"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of the police officer in the cartoon &quot;Top Cat&quot;?",
+        "correct_answer": "Dibble",
+        "incorrect_answers": [
+            "Barbrady",
+            "Mahoney",
+            "Murphy"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the TV show &quot;Cheers&quot;, Sam Malone was a former relief pitcher for which baseball team?",
+        "correct_answer": "Boston Red Sox",
+        "incorrect_answers": [
+            "New York Mets",
+            "Baltimore Orioles",
+            "Milwaukee Brewers"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the TV show &#039;M*A*S*H&#039;, what was the nickname of Corporal Walter O&#039;Reilly?",
+        "correct_answer": "Radar",
+        "incorrect_answers": [
+            "Hawkeye",
+            "Hot Lips",
+            "Trapper"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Grant Gustin plays which superhero on the CW show of the same name?",
+        "correct_answer": "The Flash",
+        "incorrect_answers": [
+            "The Arrow",
+            "Black Canary",
+            "Daredevil"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?",
+        "correct_answer": "Torquay",
+        "incorrect_answers": [
+            "Blackpool",
+            "Bournemouth",
+            "Great Yarmouth"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following Autobot names in Michael Bay&#039;s movies was NOT a name for a Transformer in the original 1980&#039;s cartoon?",
+        "correct_answer": "Mudflap",
+        "incorrect_answers": [
+            "Skids",
+            "Sideswipe",
+            "Ratchet"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the setting of the show &quot;Parks and Recreation&quot;?",
+        "correct_answer": "Pawnee, Indiana",
+        "incorrect_answers": [
+            "Eagleton, Indiana",
+            "Pasadena, California",
+            "London, England"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which character does voice actress Tara Strong NOT voice?",
+        "correct_answer": "Bubbles (2016)",
+        "incorrect_answers": [
+            "Twilight Sparkle",
+            "Timmy Turner",
+            "Harley Quinn"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the episode of SpongeBob SquarePants, &quot;Survival of the Idiots&quot;, Spongebob called Patrick which nickname?",
+        "correct_answer": "Pinhead",
+        "incorrect_answers": [
+            "Starfish",
+            "Larry",
+            "Dirty Dan"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the show Stranger Things, what is Eleven&#039;s favorite breakfast food?",
+        "correct_answer": "Eggo Waffles",
+        "incorrect_answers": [
+            "Toast",
+            "Captain Crunch",
+            "Bacon and Eggs"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who is the main character in the show &quot;Burn Notice&quot;?",
+        "correct_answer": "Michael Westen",
+        "incorrect_answers": [
+            "Sam Axe",
+            "Fiona Glenanne",
+            "Madeline Westen"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who co-founded the YouTube Let&#039;s Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?",
+        "correct_answer": "JonTron",
+        "incorrect_answers": [
+            "Pewdiepie",
+            "Tobuscus",
+            "Markiplier"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which company has exclusive rights to air episodes of the &quot;The Grand Tour&quot;?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Netflix",
+            "BBC",
+            "CCTV"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When did the TV show Rick and Morty first air on Adult Swim?",
+        "correct_answer": "2013",
+        "incorrect_answers": [
+            "2014",
+            "2016",
+            "2015"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Supernatural, what&#039;s is Sam&#039;s brothers name?",
+        "correct_answer": "Dean",
+        "incorrect_answers": [
+            "Dave",
+            "Steve",
+            "Mike"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In DuckTales, what is the name of the city where all the main characters live?",
+        "correct_answer": "Duckburg",
+        "incorrect_answers": [
+            "Duckwing",
+            "Tailspin",
+            "Wingford"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the television show Breaking Bad, what is the street name of Walter and Jesse&#039;s notorious product?",
+        "correct_answer": "Blue Sky",
+        "incorrect_answers": [
+            "Baby Blue",
+            "Rock Candy",
+            "Pure Glass"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which country does the YouTuber &quot;SinowBeats&quot; originate from?",
+        "correct_answer": "Scotland",
+        "incorrect_answers": [
+            "England",
+            "Sweden",
+            "Germany"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the name of the the first episode of Doctor Who to air in 1963?",
+        "correct_answer": "An Unearthly Child",
+        "incorrect_answers": [
+            "The Daleks",
+            "The Aztecs",
+            "The Edge of Destruction"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these television shows makes everyone look under their chair?",
+        "correct_answer": "Oprah",
+        "incorrect_answers": [
+            "Jimmy Fallon",
+            "Saturday Night Live",
+            "Larry Rubert"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the real name of the famous spanish humorist, El Risitas?",
+        "correct_answer": "Juan Joya Borga",
+        "incorrect_answers": [
+            "Gabriel Garcia Marquez",
+            "Jesus Quintero",
+            "Ernesto Guevara"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the &quot;Flash&quot; and &quot;Arrow&quot; spinoff featuring a team of characters that have appeared on both shows?",
+        "correct_answer": "Legends of Tomorrow",
+        "incorrect_answers": [
+            "Heroes of Tomorrow",
+            "The Justice Society of America",
+            "The Justice Society"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which show is known for the songs &quot;You are a Pirate&quot;, &quot;Cooking by the Book&quot; and &quot;We Are Number One&quot;?",
+        "correct_answer": "LazyTown",
+        "incorrect_answers": [
+            "Sofia the First",
+            "DuckTales",
+            "Tom and Jerry"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Star Trek: The Next Generation, what is the name of Data&#039;s cat?",
+        "correct_answer": "Spot",
+        "incorrect_answers": [
+            "Mittens",
+            "Tom",
+            "Kitty"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In season one of the Netflix political drama &quot;House of Cards&quot;, what government position does Frank Underwood hold?",
+        "correct_answer": "House Majority Whip",
+        "incorrect_answers": [
+            "Attorney General",
+            "President",
+            "Chief of Staff"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In &quot;Breaking Bad&quot;, Walter White is a high school teacher diagnosed with which form of cancer?",
+        "correct_answer": "Lung Cancer",
+        "incorrect_answers": [
+            "Prostate Cancer",
+            "Brain Cancer",
+            "Testicular Cancer"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these Disney shows is classified as an anime?",
+        "correct_answer": "Stitch!",
+        "incorrect_answers": [
+            "Cory in the House",
+            "The Emperor&#039;s New School",
+            "Hannah Montana"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many seasons did the TV show &quot;Donkey Kong Country&quot; last?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+            "1",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In &quot;Donkey Kong Country&quot;, why does Donkey Kong want to know the secret of the crystal coconut?",
+        "correct_answer": "He&#039;s the big kahuna.",
+        "incorrect_answers": [
+            "To find out where all the bananas are.",
+            "Because Diddy Kong forced him.",
+            "He wants to punish brutes."
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the Klingon&#039;s afterlife called?",
+        "correct_answer": "Sto-vo-kor",
+        "incorrect_answers": [
+            "Valhalla",
+            "Karon&#039;gahk",
+            "New Jersey"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many seasons did the Sci-Fi television show &quot;Stargate Atlantis&quot; have?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "10",
+            "2",
+            "7"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What episode of &quot;Mr. Bean&quot; saw him trying to prevent people from seeing him naked?",
+        "correct_answer": "Mr. Bean in Room 426",
+        "incorrect_answers": [
+            "Mr. Bean Goes to Town",
+            "The Trouble with Mr. Bean",
+            "Back to School Mr. Bean"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the main antagonists in Battlestar Galactica?",
+        "correct_answer": "The Cylons",
+        "incorrect_answers": [
+            "The Collective",
+            "The Federation",
+            "The Rebels"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
+        "correct_answer": "Husker",
+        "incorrect_answers": [
+            "Starbuck",
+            "Apollo",
+            "Crashdown"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which actor portrays &quot;Walter White&quot; in the series &quot;Breaking Bad&quot;?",
+        "correct_answer": " Bryan Cranston",
+        "incorrect_answers": [
+            "Andrew Lincoln",
+            "Aaron Paul",
+            "RJ Mitte"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In &quot;The Simpsons&quot;, what is the real name of &quot;Comic Book Guy&quot;?",
+        "correct_answer": "Jeff Albertson",
+        "incorrect_answers": [
+            "Comic Book Guy",
+            "Edward Stone",
+            "Jack Richardson"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which WWF wrestler had the nickname &quot;The Ayatollah of Rock &#039;N&#039; Rolla&quot;?",
+        "correct_answer": "Chris Jericho",
+        "incorrect_answers": [
+            "Marty Jannetty",
+            "Scott Hall",
+            "Shawn Michaels"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "On the NBC show Community what was Star Burns&#039; real name?",
+        "correct_answer": "Alex",
+        "incorrect_answers": [
+            "Todd",
+            "Neal",
+            "Grimus"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In AMC&#039;s TV Series &quot;The Walking Dead&quot; what are &quot;Zombies&quot; referred to as?",
+        "correct_answer": "Walkers",
+        "incorrect_answers": [
+            "Creepers",
+            "Maggots",
+            "Hell Pigs"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In &quot;Rick And Morty&quot;, who shot &quot;Mr. Poopybutthole&quot; in the episode &quot;Total Rickall&quot;?",
+        "correct_answer": "Beth",
+        "incorrect_answers": [
+            "Rick",
+            "Jerry",
+            "Morty"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Baron Silas Greenback is the arch nemesis of which cartoon hero?",
+        "correct_answer": "Danger Mouse",
+        "incorrect_answers": [
+            "Bananaman",
+            "SuperTed",
+            "Captain Star"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Cesar Romero played which iconic Batman villain from the 1960&#039;s TV show?",
+        "correct_answer": "The Joker",
+        "incorrect_answers": [
+            "The Penguin",
+            "The Riddler",
+            "Mr. Freeze"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these Nickelodeon game shows aired first?",
+        "correct_answer": "Double Dare",
+        "incorrect_answers": [
+            "Nick Arcade",
+            "Finders Keepers",
+            "Nickelodeon Guts"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What TV show is about a grandfather dragging his grandson around on adventures?",
+        "correct_answer": "Rick &amp; Morty",
+        "incorrect_answers": [
+            "Family Guy",
+            "South Park",
+            "American Dad"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The 1985 Toyota Corolla &quot;AE86&quot; was the hero car for what anime? ",
+        "correct_answer": "Initial D",
+        "incorrect_answers": [
+            "Wangan Midnight",
+            "Ghost MF",
+            "Ex Driver"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was Firestorm&#039;s rival during the original run of UK Robot Wars?",
+        "correct_answer": "Panic Attack",
+        "incorrect_answers": [
+            "Razer",
+            "Chaos 2",
+            "Hypno Disc"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the race horse that Tony Soprano becomes attached to?",
+        "correct_answer": "Pie-O-My",
+        "incorrect_answers": [
+            "Man o&#039; war",
+            "Bada Bing",
+            "Honest Earnings"
+        ]
+    },
+    {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In Two and a Half Men, what is Alan Harper&#039;s son&#039;s name?",
+        "correct_answer": "Jake",
+        "incorrect_answers": [
+            "John",
+            "Jeremy",
+            "James"
+        ]
+    }
 ]
