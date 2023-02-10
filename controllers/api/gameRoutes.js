@@ -1,14 +1,14 @@
 const router = require('express').Router();
-const { Project, User } = require('../models');
+const { Scores, User } = require('../models');
 const withAuth = require('../utils/auth');
 // Use withAuth middleware to prevent access to route
-//or whatever the "playgame endpoint is actually called"
+//or whatever the "playgame" endpoint is actually called
 router.get('/playgame', withAuth, async (req, res) => {
     try {
       // Find the logged in user based on the session ID
       const userData = await User.findByPk(req.session.user_id, {
         attributes: { exclude: ['password'] },
-        include: [{ model: Project }],
+        include: [{ model: Scores }],
       });
   
       const user = userData.get({ plain: true });

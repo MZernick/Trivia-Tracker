@@ -43,6 +43,7 @@ router.post('/login', async (req, res) => {
       req.session.logged_in = true;
       
       res.json({ user: userData, message: 'You are now logged in!' });
+      res.redirect('/playgame');
     });
 
   } catch (err) {
@@ -50,12 +51,21 @@ router.post('/login', async (req, res) => {
   }
 });
 
-//logout and gets rid of seeion info
+//what's page/ current score?
+router.post('/highscores', async (req, res) => {
+  //something like 
+  //if 
+  //const newUserHighscore=  req.session.user_high_Score
+});
+
+//logout and gets rid of session info and redirects to main page
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
       res.status(204).end();
     });
+        res.redirect('/');
+        return;
   } else {
     res.status(404).end();
   }
