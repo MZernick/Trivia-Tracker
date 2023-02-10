@@ -1,6 +1,6 @@
 :root {
   --primary: #389393;
-  --secondary: #f5a25d;
+  --secondary: rgb(16, 183, 86);
   --tertiary: #fa7f72;
   --quatrinary: #6c6b67;
   --light: #ebebeb;
@@ -27,12 +27,6 @@ header {
   border-bottom-style: solid;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-}
-
 aside {
   flex: 0;
   background-color: var(--tertiary);
@@ -41,12 +35,20 @@ aside {
   color: var(--light);
 }
 
-nav {
+#navbarNav {
   display: flex;
-  background-color: var(--secondary);
+  background-color: var(--primary);
+  align-items: center;
+  flex-flow: row-reverse;
 }
 
-.menu-container {
+.trivia-gif {
+  padding: 20px;
+  margin-top:40px;
+  margin-left:50px;
+}
+
+/* .menu-container {
   display: flex;
   flex-wrap: wrap;
   width: 75%;
@@ -60,9 +62,9 @@ nav {
   color: var(--dark);
   padding: 50px;
   background-color: #ebebeb;
-}
+} */
 
-.add-dish-container {
+/* .add-dish-container {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
@@ -77,9 +79,9 @@ nav {
   padding: 5px;
   text-align: center;
   background-color: var(--tertiary);
-}
+} */
 
-.edit-dish-container {
+/* .edit-dish-container {
   display: flex;
   flex-wrap: wrap;
   width: 35%;
@@ -95,11 +97,12 @@ nav {
   padding: 50px;
   text-align: center;
   background-color: var(--tertiary);
-}
+} */
 
 /* CARDS */
 .trivia-card {
   margin: 20px;
+  margin-top: 40px;
   flex: 0 1 300px;
   padding: 5px;
   width: 35%;
@@ -113,7 +116,7 @@ nav {
   color: var(--dark);
 }
 
-.category-card {
+/* .category-card {
   margin: 50px;
   flex: 0 1 300px;
   padding: 5px;
@@ -123,9 +126,9 @@ nav {
   border-width: thick;
   background-color: var(--light);
   color: var(--dark);
-}
+} */
 
-.category-header {
+/* .category-header {
   color: var(--light);
   margin: 0;
   background-color: var(--secondary);
@@ -134,7 +137,7 @@ nav {
   border-radius: var(--border-radius);
   border-style: solid;
   border-width: medium;
-}
+} */
 
 .trivia-card-header {
   font-size: 1.5rem;
@@ -155,6 +158,6 @@ nav {
 .container {
   display: flex;
   flex-flow: column wrap;
-  align-content: flex-start;
-  align-items: center;
+  color: var(--dark);
+  padding: 20px;
 }
