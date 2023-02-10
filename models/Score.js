@@ -11,23 +11,22 @@ Score.init(
       primaryKey: true,
       autoIncrement: true,        
     },
-    user_scores: {
-      type: DataTypes.INTEGER,
-    },
+
     user_id: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       references: {
         model: 'user',
-        key: 'id'
-      }
-    }
-  },
-    {
-      sequelize,
-      freezeTableName: true,
-      underscored: true,
-      modelName: 'score',
-    }
-)
+        key: 'id',
+      },
+},
+    },
+{
+  sequelize,
+  freezeTableName: true,
+  underscored: true,
+  modelName: 'score',
+}
+);
+
 
 module.exports = Score;

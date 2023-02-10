@@ -24,13 +24,15 @@ User.init(
     high_score: {
       type: DataTypes.INTEGER,
     },
-    scores: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'score',
-        key: 'user_scores',
-      },
-    },
+
+    // scores: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: 'score',
+    //     key: 'user_score',
+    //   },
+    // },
+
 },
     {
         sequelize,
