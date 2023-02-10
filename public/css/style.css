@@ -41,7 +41,7 @@ aside {
   color: var(--light);
 }
 
-nav {
+#navbarNav {
   display: flex;
   background-color: var(--secondary);
 }
