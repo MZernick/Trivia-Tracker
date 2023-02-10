@@ -10,5 +10,5 @@ const logout = async () => {
     alert(response.statusText);
   }
 };
-
+// CHECK SELECTOR ID MATCHES LOGOUT HANDLEBAR WHEN CREATED.
 document.querySelector('#logout').addEventListener('click', logout);

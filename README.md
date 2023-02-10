@@ -16,8 +16,8 @@ Sign up for an account. The application will track your statistics.
 
 # Instructions
 
-1. Log into the page.
-2. Trivia questions are displayed.
+1. Log in or sign up.
+2. Trivia questions are then displayed.
 3. Select an answer and the next question will be displayed.
 4. 
 5. 
