@@ -11,6 +11,7 @@ Score.init(
       primaryKey: true,
       autoIncrement: true,        
     },
+
     user_id: {
       type: DataTypes.INTEGER,
       references: {
@@ -26,5 +27,6 @@ Score.init(
   modelName: 'score',
 }
 );
+
 
 module.exports = Score;

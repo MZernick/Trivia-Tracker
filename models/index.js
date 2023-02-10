@@ -10,10 +10,12 @@ User.hasMany(Score, {
     onDelete: 'CASCADE'
   });
 
+
 Score.belongsTo(User, {
   foreignKey: 'user_id'
 })
   
 // trvia has many users
+
 
 module.exports = { User, Score };
