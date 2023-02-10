@@ -1,5 +1,5 @@
-const User = require('./User');
-const Trivia = require('./Trivia');
+const User = require('./userInfo');
+// const Trivia = require('./Trivia');
 const Score = require('./Score')
 
 //Scores belongs to user
@@ -11,4 +11,4 @@ User.hasMany(Score, {
   });
 //trvia has many users
 
-module.exports = { User, Trivia, Score };
+module.exports = { User, Score };

@@ -28,7 +28,7 @@ User.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'score',
-        key: 'score',
+        key: 'user_scores',
       },
     },
 },
