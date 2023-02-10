@@ -1,0 +1,31 @@
+
+            <img src="./assets/quiz-night.gif" class="trivia-gif" alt="trivia night">
+            {{#each trivia.choices as choices}}
+            <div class="trivia-card mx-auto p-5" style="width: 18rem;">
+                <img src="./assets/quiz-night.gif" class="card-img-top" alt="trivia night">
+                <div class="">
+                    <h5 class="card-title trivia-card-header text-center">{{trivia.question}}</h5>
+                    <div class="text-center questions">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="text-center">
+                        <div class="container"><button class="rounded-pill" style="background-color: #389393;" id="choiceOne"
+                                data-index="0">{{trivia.choices[0]}}</button></div>
+                    </div>
+                    <div class="text-center">
+                        <div class="container"><button class="rounded-pill" style="background-color: #389393;" id="choiceTwo"
+                                data-index="1">{{trivia.choices[1]}}</button></div>
+                    </div>
+                    <div class="text-center">
+                        <div class="container"><button class="rounded-pill" style="background-color: #389393;" id="choiceThree"
+                                data-index="2">{{trivia.choices[2]}}</button></div>
+                    </div>
+                    <div class="text-center">
+                        <div class="container"><button class="rounded-pill" style="background-color: #389393;" id="choiceFour"
+                                data-index="3">{{trivia.choices[3]}}</button></div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </main>
