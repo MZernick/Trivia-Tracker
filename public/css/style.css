@@ -43,7 +43,9 @@ aside {
 }
 
 .trivia-gif {
-  
+  padding: 20px;
+  margin-top:40px;
+  margin-left:50px;
 }
 
 /* .menu-container {
@@ -100,6 +102,7 @@ aside {
 /* CARDS */
 .trivia-card {
   margin: 20px;
+  margin-top: 40px;
   flex: 0 1 300px;
   padding: 5px;
   width: 35%;
