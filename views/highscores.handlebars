@@ -1,0 +1,16 @@
+        <main>
+            <div class="row">
+                <div class="card position-absolute top-50 start-50 tanslate-middle text-bg mb-3"
+                    style="max-width: 18rem;">
+                    <h1 class="text-center">High Scores</h1>
+                    <section>
+                        {{#each highscores.score as |score|}}
+                        <div>
+                          <h3>{{highscores.username}}</h3>
+                          <p>{{highscores.score}}</p>
+                        </div>
+                        {{/each}}
+                      </section>
+                </div>
+            </div>
+        </main>
