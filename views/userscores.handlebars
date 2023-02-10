@@ -2,12 +2,12 @@
             <div class="row">
                 <div class="card position-absolute mx-auto tanslate-middle text-bg mb-3"
                     style="max-width: 18rem;">
-                    <h1 class="text-center">High Scores</h1>
+                    <h1 class="text-center">{{user.username}} Scores</h1>
                     <section>
-                        {{#each highscores.score as |score|}}
+                        {{#each user.score as |score|}}
                         <div>
-                          <h3>{{highscores.username}}</h3>
-                          <p>{{highscores.score}}</p>
+                          <h3>{{user.score}}</h3>
+                          <p>{{user.date}}</p>
                         </div>
                         {{/each}}
                       </section>
