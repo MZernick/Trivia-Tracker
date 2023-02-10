@@ -42,7 +42,7 @@ Handlebars.js, Node.js, Express.js, MySQL and the Sequelize ORM
 Ideas pending for possible future development:
 
 1. Selectable trivia question categories (i.e. music, sports, history).
-2. 
+2. Scores & High Scores by category.
 3. 
 
 ## License
