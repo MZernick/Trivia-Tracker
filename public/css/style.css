@@ -60,6 +60,13 @@ aside {
   color: var(--dark);
   padding: 50px;
   max-width: fit-content;
+  margin-top: 40px;
+}
+
+.user-scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* .add-dish-container {
