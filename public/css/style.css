@@ -61,6 +61,13 @@ aside {
   color: var(--dark);
   padding: 50px;
   max-width: fit-content;
+  margin-top: 40px;
+}
+
+.user-scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* .add-dish-container {
@@ -159,4 +166,15 @@ aside {
   flex-flow: column wrap;
   color: var(--dark);
   padding: 20px;
+}
+.btn-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.answer-btn {
+  color: var(--dark);
+  padding: 20px;
+  margin: 1rem;
 }

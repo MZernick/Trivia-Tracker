@@ -1,7 +1,18 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 //check to see if user is already logged in
-router.post('/', async (req, res) => {
+
+// GET all user
+router.get('/', async (req, res) => {
+  try {
+    const userData = await User.findAll();
+    res.status(200).json(userData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.post('/signup', async (req, res) => {
   try {
     const userData = await User.create(req.body);
 
@@ -16,8 +27,17 @@ router.post('/', async (req, res) => {
   }
 });
 
+router.get('/', async (req, res) => {
+  try {
+    const userData = await User.findAll();
+    res.status(200).json(userData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 //on the login page and rejects not found email
-router.post('/login', async (req, res) => {
+router.post('/', async (req, res) => {
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
 
@@ -43,7 +63,7 @@ router.post('/login', async (req, res) => {
       req.session.logged_in = true;
       
       res.json({ user: userData, message: 'You are now logged in!' });
-      res.redirect('/playgame');
+      res.redirect('/trivia');
     });
 
   } catch (err) {
@@ -59,7 +79,7 @@ router.post('/highscores', async (req, res) => {
 });
 
 //logout and gets rid of session info and redirects to main page
-router.post('/logout', (req, res) => {
+router.post('/', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
       res.status(204).end();

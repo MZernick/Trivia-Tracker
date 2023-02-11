@@ -32,8 +32,10 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
+
       // If successful, redirect the browser to the trivia question page 
-      document.location.replace('/playgame');
+      //will game happen on main page?
+      document.location.replace('/game');
       hideNavLoginSignup();
       addNavLogoutEl();
     } else {
@@ -56,7 +58,7 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/playgame');
+      document.location.replace('/game');
       hideNavLoginSignup();
       addNavLogoutEl();
     } else {

@@ -1,74 +1,84 @@
-// https://the-trivia-api.com/docs/#search
-// import fetch from 'cross-fetch';
+var questionEl = document.querySelector("#question");
+var scoreEl = document.querySelector("#score");
+
 var questions = [];      
 var currentQuestion = 0;
+var scoreCount = 0
 
-// function startGame() {
-//           getQuestions()
-//           renderQuestions()
-// }
+
 
 async function getQuestions() { 
     const fetchedQs = await fetch('https://the-trivia-api.com/api/questions?limit=20', {
-        // method: 'GET',
         headers: {
             'Content-Type': 'application/json'
         },
-    }).then ((response) => 
+    })
+    .then ((response) => 
     response.json())
     .then((fetchedQs) => {
-    questions = [fetchedQs]
-    var answers = [questions[0][1].incorrectAnswers + "," + questions[0][1].correctAnswer]
-    console.log(questions)
-    console.log(questions[0][1].question)
-    console.log(answers)
-})
+            questions = fetchedQs
+            console.log(questions)
+            renderQuestions(questions)
+    })
     }
-getQuestions()
 
-
+function shuffleArray(arr) {
+        for (var i = arr.length - 1; i > 0; i--) {
+    
+            var j = Math.floor(Math.random() * (i + 1));
+    
+            var temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        return arr;
+    }
+var correct;
 function renderQuestions() {
-    for (var i = 0; i < questions[0].length; i++) {
-        var qArr = questions[0];
-        var answers = [qArr[i].incorrectAnswers + "," + qArr[i].correctAnswer];
-        var questionIndex = questions[currentQuestion];
+    scoreEl.textContent = "Score: " + scoreCount;
+    var questionIndex = questions[currentQuestion];
+    console.log(questionIndex.question);
+    correct = questionIndex.correctAnswer
 
-        "handlebars question ./#".textcontent = qArr[i].question
-        btns.innerHTML = "";
-        questionIndex.answers.forEach(answer => {
-            var button = docuemnt.createElement("button");
-            button.setAttribute("class", "btn")
-            button.setAttribute("value", answer)
-            button.textContent = answer;
-        })
-
-    }
+    questionEl.textContent = questionIndex.question
+    var answers = questionIndex.incorrectAnswers;
+    answers.push(questionIndex.correctAnswer);
+    console.log(answers)
+    var randomAnswers = shuffleArray(answers)
+    console.log(randomAnswers)
+    btns.innerHTML = "";
+    randomAnswers.forEach(answer => {
+        var button = document.createElement("button");
+        button.setAttribute("class", "text-center rounded-pill answer-btn")
+        button.setAttribute("style", "background-color: #7FFF00;")
+        button.setAttribute("value", answer)
+        button.textContent = answer;
+        button.onclick = checkAnswer;
+        btns.appendChild(button);
+        },
+        )
 }
-  startContainer.style.display = 'none';
-  questionContainer.style.display = 'block';
-
-  question.textContent = questionIndex.question;
-  btns.innerHTML = "";
-  questionIndex.answers.forEach(answer => {
-    var button = document.createElement("button");
-    button.setAttribute("class", "btn")
-    button.setAttribute("value", answer)
-    button.textContent = answer;
-    button.onclick = checkAnswer;
-    btns.appendChild(button);
-      })
-    }
 
 var checkAnswer = function() {
-      if (this.value !== quizQuestions[currentQuestion].correct) {
-        timerCount -=10;
-        timerEl.textContent = "Timer: " + timerCount;
-      } else {
-      } 
-currentQuestion++;
-      if (currentQuestion === quizQuestions.length) {
-        endQuiz()
-      } else {
-        renderQuestions()
-      }
+    console.log(questions[currentQuestion].correctAnswer)
+    if (this.value !== questions[currentQuestion].correctAnswer) {
+    console.log("incorrect"),
+    currentQuestion++;
+    //   timerCount -=10;
+    //   timerEl.textContent = "Timer: " + timerCount;
+    } else {
+        scoreCount += 100,
+        scoreEl.textContent = "Score: " + scoreCount;
+        currentQuestion++;
     }
+
+    if (currentQuestion === questions.length) {
+        console.log("game over")
+        //   call update user request for final score
+    } else {
+      renderQuestions()
+    }
+  }
+
+
+getQuestions()
