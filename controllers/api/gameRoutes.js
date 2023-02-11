@@ -2,8 +2,8 @@ const router = require('express').Router();
 const { Scores, User } = require('../models');
 const withAuth = require('../utils/auth');
 // Use withAuth middleware to prevent access to route
-//or whatever the "playgame" endpoint is actually called
-router.get('/playgame', withAuth, async (req, res) => {
+//or whatever the "trivia" endpoint is actually called
+router.get('/trivia', withAuth, async (req, res) => {
     try {
       // Find the logged in user based on the session ID
       const userData = await User.findByPk(req.session.user_id, {
@@ -13,7 +13,7 @@ router.get('/playgame', withAuth, async (req, res) => {
   
       const user = userData.get({ plain: true });
   
-      res.render('playgame', {
+      res.render('trivia', {
         ...user,
         logged_in: true
       });
@@ -22,14 +22,14 @@ router.get('/playgame', withAuth, async (req, res) => {
     }
   });
   
-  router.get('/playgame', (req, res) => {
+  /*router.get('/trivia', (req, res) => {
     // If the user is already logged in, redirect the request to another route
     if (req.session.logged_in) {
-      res.redirect('/playgame');
+      res.redirect('/trivia');
       return;
     }
   
     res.render('login');
-  });
+  });*/
   
   module.exports = router;

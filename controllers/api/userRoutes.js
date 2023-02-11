@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
       req.session.logged_in = true;
       
       res.json({ user: userData, message: 'You are now logged in!' });
-      res.redirect('/playgame');
+      res.redirect('/trivia');
     });
 
   } catch (err) {
@@ -59,7 +59,7 @@ router.post('/highscores', async (req, res) => {
 });
 
 //logout and gets rid of session info and redirects to main page
-router.post('/logout', (req, res) => {
+router.post('/', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
       res.status(204).end();
