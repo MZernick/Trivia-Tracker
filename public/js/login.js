@@ -16,7 +16,7 @@ const loginFormHandler = async (event) => {
     if (response.ok) {
       // If successful, redirect the browser to the trivia question page
       //will game happen on main page? 
-      document.location.replace('/playgame');
+      document.location.replace('/trivia');
     } else {
       alert(response.statusText);
       // alert('Failed to log in.');
@@ -37,7 +37,7 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/playgame');
+      document.location.replace('/trivia');
     } else {
       alert(response.statusText);
       // alert('Failed to sign up.');
