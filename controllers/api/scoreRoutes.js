@@ -4,8 +4,8 @@ const { Score, User } = require('../models');
 
 //this could be used for scores of user
 //or whatever endpoint is called
-//will need to change if there is no scores model
-router.get('/highscores', async (req, res) => {
+
+router.get('/userscores', async (req, res) => {
   try {
     // Get all scores and JOIN with user data
     const scoreData = await Score.findAll({
@@ -13,6 +13,9 @@ router.get('/highscores', async (req, res) => {
         {
           model: User,
           attributes: ['id'],
+          model: Score,
+          attributes: ['date_created'],
+          
         },
       ],
     });
@@ -23,7 +26,7 @@ router.get('/highscores', async (req, res) => {
 
     // Past scores of user
     //may need to move this to post
-    res.render('highscores', { 
+    res.render('userscores', { 
       pastscores, //only happens when user is logged in?
     //  logged_in: req.session.logged_in 
     });
@@ -33,3 +36,4 @@ router.get('/highscores', async (req, res) => {
 });
 
 
+module.exports = router;
