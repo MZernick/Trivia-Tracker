@@ -1,8 +1,11 @@
 var questionEl = document.querySelector("#question");
+var scoreEl = document.querySelector("#score");
 
 var questions = [];      
 var currentQuestion = 0;
-var score = 0
+var scoreCount = 0
+
+
 
 async function getQuestions() { 
     const fetchedQs = await fetch('https://the-trivia-api.com/api/questions?limit=20', {
@@ -32,7 +35,7 @@ function shuffleArray(arr) {
     }
 var correct;
 function renderQuestions() {
-
+    scoreEl.textContent = "Score: " + scoreCount;
     var questionIndex = questions[currentQuestion];
     console.log(questionIndex.question);
     correct = questionIndex.correctAnswer
@@ -47,7 +50,7 @@ function renderQuestions() {
     randomAnswers.forEach(answer => {
         var button = document.createElement("button");
         button.setAttribute("class", "text-center rounded-pill answer-btn")
-        button.setAttribute("style", "background-color: #389393;")
+        button.setAttribute("style", "background-color: #7FFF00;")
         button.setAttribute("value", answer)
         button.textContent = answer;
         button.onclick = checkAnswer;
@@ -64,15 +67,18 @@ var checkAnswer = function() {
     //   timerCount -=10;
     //   timerEl.textContent = "Timer: " + timerCount;
     } else {
-        console.log("correct"),
+        scoreCount += 100,
+        scoreEl.textContent = "Score: " + scoreCount;
         currentQuestion++;
     }
 
     if (currentQuestion === questions.length) {
         console.log("game over")
-        //   endQuiz()
+        //   call update user request for final score
     } else {
       renderQuestions()
     }
   }
+
+
 getQuestions()
