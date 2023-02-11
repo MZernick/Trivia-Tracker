@@ -6,9 +6,10 @@ const logout = async () => {
 
   if (response.ok) {
     document.location.replace('/');
+    document.querySelector('#nav-login-out').innerHTML('Log in');
   } else {
     alert(response.statusText);
   }
 };
 // CHECK SELECTOR ID MATCHES LOGOUT HANDLEBAR WHEN CREATED.
-document.querySelector('#logout').addEventListener('click', logout);
+document.querySelector('#nav-login-out').addEventListener('click', logout);
