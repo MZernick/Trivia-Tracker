@@ -10,6 +10,7 @@ Contributors: Anita Banh, Magdalene Zernick, Erin Peifer, Michael Escamilla
 # Description
 
 Trivia Game is an application for entertainment. Test your knowledge of random facts! Answer questions and see how you rank on the scoreboard!
+<ADD images of deployed application>
 
 # Getting Started
 
@@ -35,7 +36,7 @@ Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com/
 * Michael Escamilla: https://github.com/mescamilla1114
 
 # Original Idea
-
+</assets/P2 wireframe.JPG>
 
 # IceBox
 
