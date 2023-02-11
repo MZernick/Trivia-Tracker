@@ -23,7 +23,7 @@ router.get('/highscores', async (req, res) => {
 
     // Past scores of user
     //may need to move this to post
-    res.render('scorespage', { 
+    res.render('highscores', { 
       pastscores, //only happens when user is logged in?
     //  logged_in: req.session.logged_in 
     });

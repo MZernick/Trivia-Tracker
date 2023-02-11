@@ -14,7 +14,8 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      // If successful, redirect the browser to the trivia question page 
+      // If successful, redirect the browser to the trivia question page
+      //will game happen on main page? 
       document.location.replace('/playgame');
     } else {
       alert(response.statusText);
