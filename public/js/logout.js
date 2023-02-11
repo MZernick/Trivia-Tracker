@@ -6,7 +6,9 @@ const logout = async () => {
 
   if (response.ok) {
     document.location.replace('/');
-    document.querySelector('#nav-login-out').innerHTML('Log in');
+    navSignup.style.display = flex;
+    navLogin.style.display = flex;
+    document.getElementById("nav-logout").style.display = none;
   } else {
     alert(response.statusText);
   }
