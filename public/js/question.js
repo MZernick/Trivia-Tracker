@@ -37,15 +37,13 @@ var correct;
 function renderQuestions() {
     scoreEl.textContent = "Score: " + scoreCount;
     var questionIndex = questions[currentQuestion];
-    console.log(questionIndex.question);
     correct = questionIndex.correctAnswer
-
+    console.log(questions[currentQuestion].correctAnswer)
     questionEl.textContent = questionIndex.question
     var answers = questionIndex.incorrectAnswers;
     answers.push(questionIndex.correctAnswer);
-    console.log(answers)
     var randomAnswers = shuffleArray(answers)
-    console.log(randomAnswers)
+
     btns.innerHTML = "";
     randomAnswers.forEach(answer => {
         var button = document.createElement("button");
@@ -60,7 +58,7 @@ function renderQuestions() {
 }
 
 var checkAnswer = function() {
-    console.log(questions[currentQuestion].correctAnswer)
+
     if (this.value !== questions[currentQuestion].correctAnswer) {
     console.log("incorrect"),
     currentQuestion++;
