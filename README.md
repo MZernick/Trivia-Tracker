@@ -6,9 +6,10 @@ Deployment Date: February 2023
 
 Contributors: Anita Banh, Magdalene Zernick, Erin Peifer, Michael Escamilla
 
-# Purpose
 
-Trivia Game is an application for entertainment. Test your knowledge of random facts! Answer questions and see your high score.
+# Description
+
+Trivia Game is an application for entertainment. Test your knowledge of random facts! Answer questions and see how you rank on the scoreboard!
 
 # Getting Started
 
@@ -24,17 +25,16 @@ Sign up for an account. The application will track your statistics.
 
 # Built Using
 
-Handlebars.js, Node.js, Express.js, MySQL and the Sequelize ORM
+Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com/
 
 # Authors
 
 * Magdalene Zernick: https://github.com/MZernick
 * Anita Banh: https://github.com/AnitaBanh
-* Erin Peifer: https://github.com/
+* Erin Peifer: https://github.com/Airen22
 * Michael Escamilla: https://github.com/mescamilla1114
 
 # Original Idea
-
 
 
 # IceBox
