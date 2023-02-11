@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Score, User } = require('../models'); 
+const { Score, User } = require('../../models'); 
 
 
 //this could be used for scores of user

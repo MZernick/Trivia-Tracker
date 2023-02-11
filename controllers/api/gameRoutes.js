@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const { Scores, User } = require('../models');
-const withAuth = require('../utils/auth');
+const { Scores, User } = require('../../models');
+const withAuth = require('../../utils/auth');
 // Use withAuth middleware to prevent access to route
 //or whatever the "trivia" endpoint is actually called
 router.get('/trivia', withAuth, async (req, res) => {
