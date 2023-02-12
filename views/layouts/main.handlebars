@@ -8,16 +8,30 @@
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        &#127881 Let's Play Trivia! &#127881
-      </h1>
-    </header>
-      <main class="container container-fluid mt-5">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="navbarNav">
+            <a class="navbar-brand" href="#">Trivia Tracker</a>
+            <div class="collapse navbar-collapse navbar-text">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">High Scores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <main>
         {{{ body }}}
       </main>
-  </div>
   </body>
 
 </html>

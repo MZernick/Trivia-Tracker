@@ -1,22 +1,23 @@
 const router = require('express').Router();
-const { Scores, User } = require('../../models');
-const withAuth = require('../../utils/auth');
+const { Score, User } = require('../models');
+// const withAuth = require('../utils/auth');
 // Use withAuth middleware to prevent access to route
 //or whatever the "trivia" endpoint is actually called
-router.get('/trivia', withAuth, async (req, res) => {
+router.get('/trivia', async (req, res) => {
     try {
       // Find the logged in user based on the session ID
       const userData = await User.findByPk(req.session.user_id, {
         attributes: { exclude: ['password'] },
-        include: [{ model: Scores }],
+        include: [{ model: Score }],
       });
   
       const user = userData.get({ plain: true });
   
-      res.render('trivia', {
-        ...user,
-        logged_in: true
-      });
+      res.render('trivia')
+      // , {
+      //   ...user,
+      //   // logged_in: true
+      // });
     } catch (err) {
       res.status(500).json(err);
     }

@@ -1,5 +1,5 @@
-let navSignup = document.getElementById("nav-signup");
-let navLogin = document.getElementById("nav-login")
+// let navSignup = document.getElementById("nav-signup");
+// let navLogin = document.getElementById("nav-login")
 
 //Create nav bar log out p element to replace login and sign up
 function addNavLogoutEl() {
@@ -58,7 +58,7 @@ const signupFormHandler = async (event) => {
 
     if (response.ok) {
       // correct path as needed to direct to trivia questions /game or /trivia? Update loginFormHandler to the same.
-      document.location.replace('/game');
+      document.location.replace('/trivia');
       hideNavLoginSignup();
       addNavLogoutEl();
     } else {
