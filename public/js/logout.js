@@ -1,3 +1,5 @@
+let navLogout = document.getElementById("nav-logout");
+
 const logout = async () => {
   const response = await fetch('/api/users/logout', {
     method: 'POST',
@@ -8,10 +10,10 @@ const logout = async () => {
     document.location.replace('/');
     navSignup.style.display = flex;
     navLogin.style.display = flex;
-    document.getElementById("nav-logout").style.display = none;
+    navLogout.style.display = none;
   } else {
     alert(response.statusText);
   }
 };
 // CHECK SELECTOR ID MATCHES LOGOUT HANDLEBAR WHEN CREATED.
-document.querySelector('#nav-login-out').addEventListener('click', logout);
+navLogout.addEventListener('click', logout);
