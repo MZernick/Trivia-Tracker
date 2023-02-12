@@ -1,6 +1,6 @@
-// let navSignup = document.getElementById("nav-signup");
-// let navLogin = document.getElementById("nav-login")
-
+let navSignup = document.getElementById("nav-signup");
+let navLogin = document.getElementById("nav-login")
+let btnSignup = document.getElementById("signup-btn")
 //Create nav bar log out p element to replace login and sign up
 function addNavLogoutEl() {
   const newEl = document.createElement("p");
@@ -67,11 +67,12 @@ const signupFormHandler = async (event) => {
     }
   }
 };
+console.log(btnSignup);
+// document
+//   .querySelector('.login-form')
+//   .addEventListener('submit', loginFormHandler);
 
-document
-  .querySelector('.login-form')
-  .addEventListener('submit', loginFormHandler);
 
-document
-  .querySelector('.signup-form')
-  .addEventListener('submit', signupFormHandler);
+ btnSignup.addEventListener('submit', signupFormHandler);
+
+  
