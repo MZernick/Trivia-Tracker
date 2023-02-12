@@ -1,8 +1,8 @@
-var db = require ('../models');
+var db = require ('../../models');
 const router = require('express').Router();
 
 router.get('/', (req, res)=>{
-    res.render('main');
+    res.render('home');
 });
 
 router.get('/login', (req, res)=>{
@@ -16,3 +16,5 @@ router.get('/signup', (req, res)=>{
 router.get('/highscores', (req, res)=>{
     res.render('/highscores');
 });
+
+module.exports= router;

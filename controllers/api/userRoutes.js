@@ -4,8 +4,11 @@ const { User } = require('../../models');
 
 // GET all user
 router.get('/', async (req, res) => {
+  
   try {
+    res.render('home');
     const userData = await User.findAll();
+    
     res.status(200).json(userData);
   } catch (err) {
     res.status(500).json(err);
@@ -27,17 +30,18 @@ router.post('/signup', async (req, res) => {
   }
 });
 
-router.get('/', async (req, res) => {
+/*router.get('/', async (req, res) => {
   try {
     const userData = await User.findAll();
+    res.render('home');
     res.status(200).json(userData);
   } catch (err) {
     res.status(500).json(err);
   }
-});
+});*/
 
 //on the login page and rejects not found email
-router.post('/', async (req, res) => {
+router.post('/login', async (req, res) => {
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
 
