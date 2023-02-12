@@ -1,6 +1,6 @@
 var questionEl = document.querySelector("#question");
 var scoreEl = document.querySelector("#score");
-
+var btns = document.querySelector("#btns");
 var questions = [];      
 var currentQuestion = 0;
 var scoreCount = 0
