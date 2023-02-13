@@ -27,8 +27,10 @@ router.post('/signup', async (req, res) => {
       console.log(userData);
     });
   } catch (err) {
+  
     // res.status(400).json(err);
     console.log("test error route")
+
   }
 });
 
