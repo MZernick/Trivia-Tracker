@@ -76,7 +76,7 @@ var checkAnswer = function() {
         console.log(scoreCount)
         fetch('/api/score/newscore', {
             method: 'POST',
-            body: scoreCount,
+            body: JSON.stringify({game_score, user_id }),
             headers: {
                 'Content-Type': 'application/json',
             },
