@@ -32,11 +32,13 @@ router.post('/newscore', async (req, res) => {
   try {
     const newScore = await Score.create(req.body);
 
-    req.body.save(() => {
-      req.body.game_score = game_score;
-      req.body.user_id = user_id;
+    req.body.json(() => {
+      req.body.game_score = game_score,
+      req.body.user_id = user_id,
       // req.session.logged_in = true;
-      res.status(200).json(newScore);
+ 
+    res.status(200).json(newScore);
+      console.log(newScore);
     });
   } catch (err) {
     res.status(400).json(err);

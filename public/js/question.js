@@ -72,19 +72,19 @@ var checkAnswer = function() {
     }
 
     if (currentQuestion === questions.length) {
+        
         console.log("game over")
         console.log(scoreCount)
-        fetch('/api/score/newscore', {
-            method: 'POST',
-            body: JSON.stringify({game_score, user_id }),
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        });
+    fetch(`/api/score/newscore`, {
+      method: 'POST',
+      body: ({game_score: scoreCount, user_id: 1}),
+    //   headers: {
+    //     'Content-Type': 'text/plain',
+    //   },
+    });
     } else {
       renderQuestions()
     }
   }
-
 
 getQuestions()

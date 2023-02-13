@@ -21,4 +21,7 @@ router.get('/highscores', (req, res)=>{
     res.render('/highscores');
 });
 
+// router.get('/scores', (req,res) => {
+    
+// });
 module.exports= router;
