@@ -33,7 +33,7 @@ router.post('/newscore', async (req, res) => {
     const newScore = await Score.create({
       ...req.body,
       user_id: req.session.user_id,
-      //user_id: 1 WORKS but need ^ session to work properly
+      //user_id: 1 WORKS but need ^ session to work 
     });
  
     res.status(200).json(newScore);
