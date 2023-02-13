@@ -75,13 +75,17 @@ var checkAnswer = function() {
         
         console.log("game over")
         console.log(scoreCount)
-    fetch('/api/score/newscore', {
+    const response = fetch('/api/score/newscore', {
       method: 'POST',
-      body: JSON.stringify({game_score: scoreCount}),
+      body: JSON.stringify({ game_score:scoreCount }),
       headers: {
-        'Content-Type': 'text/plain',
+        'Content-Type': 'application/json',
       },
+      
     });
+    if (response.ok) {
+        document.location.replace('/profile');
+      }
     } else {
       renderQuestions()
     }
