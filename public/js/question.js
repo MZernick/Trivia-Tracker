@@ -1,6 +1,6 @@
 var questionEl = document.querySelector("#question");
 var scoreEl = document.querySelector("#score");
-
+var btns = document.querySelector("#btns");
 var questions = [];      
 var currentQuestion = 0;
 var scoreCount = 0
@@ -8,7 +8,8 @@ var scoreCount = 0
 
 
 async function getQuestions() { 
-    const fetchedQs = await fetch('https://the-trivia-api.com/api/questions?limit=20', {
+    const fetchedQs = await fetch('https://the-trivia-api.com/api/questions?limit=3', {
+        method: 'GET',
         headers: {
             'Content-Type': 'application/json'
         },
@@ -72,7 +73,14 @@ var checkAnswer = function() {
 
     if (currentQuestion === questions.length) {
         console.log("game over")
-        //   call update user request for final score
+        console.log(scoreCount)
+        fetch('/api/score/newscore', {
+            method: 'POST',
+            body: scoreCount,
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
     } else {
       renderQuestions()
     }
