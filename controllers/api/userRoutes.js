@@ -47,6 +47,7 @@ try {
         .json({ message: 'Incorrect username or password, please try again' });
       return;
     }
+    console.log("50", userData)
     // checks the password 
     const validPassword = await userData.checkPassword(req.body.password);
     console.log(userData)
@@ -61,9 +62,7 @@ try {
     //   // req.session.user_id = userData.id;
     //   req.session.logged_in = true;
       res.json({ user: userData, message: 'You are now logged in!' });
-    });
-
-  } catch (err) {
+    } catch (err) {
     res.status(500).json(err);
   }
 });
