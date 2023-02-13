@@ -1,47 +1,67 @@
-const newFormHandler = async (event) => {
-  event.preventDefault();
 
-  const name = document.querySelector('#project-name').value.trim();
-  const needed_funding = document.querySelector('#project-funding').value.trim();
-  const description = document.querySelector('#project-desc').value.trim();
-
-  if (name && needed_funding && description) {
-    const response = await fetch(`/api/score/`, {
-      method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
-      headers: {
-        'Content-Type': 'application/json',
-      },
+const userscoresHandler = async (event) => {
+    event.preventDefault();
+  
+    const response = await fetch(`/userscores`, {
+      method: 'GET',
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      // document.location.replace('/profile');
     } else {
-      alert('Failed to create project');
+      alert('Failed to locate user scores');
     }
-  }
-};
+  };
 
-const delButtonHandler = async (event) => {
-  if (event.target.hasAttribute('data-id')) {
-    const id = event.target.getAttribute('data-id');
+ 
+  window.onload=function(){
+    document.getElementById("userscores").addEventListener('click', userscoresHandler);
+   };
 
-    const response = await fetch(`/api/projects/${id}`, {
-      method: 'DELETE',
-    });
+// const newFormHandler = async (event) => {
+//   event.preventDefault();
 
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to delete project');
-    }
-  }
-};
+//   const name = document.querySelector('#project-name').value.trim();
+//   const needed_funding = document.querySelector('#project-funding').value.trim();
+//   const description = document.querySelector('#project-desc').value.trim();
 
-document
-  .querySelector('.new-project-form')
-  .addEventListener('submit', newFormHandler);
+//   if (name && needed_funding && description) {
+//     const response = await fetch(`/api/score/`, {
+//       method: 'POST',
+//       body: JSON.stringify({ name, needed_funding, description }),
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//     });
 
-document
-  .querySelector('.project-list')
-  .addEventListener('click', delButtonHandler);
+//     if (response.ok) {
+//       document.location.replace('/profile');
+//     } else {
+//       alert('Failed to create project');
+//     }
+//   }
+// };
+
+// const delButtonHandler = async (event) => {
+//   if (event.target.hasAttribute('data-id')) {
+//     const id = event.target.getAttribute('data-id');
+
+//     const response = await fetch(`/api/projects/${id}`, {
+//       method: 'DELETE',
+//     });
+
+//     if (response.ok) {
+//       document.location.replace('/profile');
+//     } else {
+//       alert('Failed to delete project');
+//     }
+//   }
+// };
+
+// document
+//   .querySelector('.new-project-form')
+//   .addEventListener('submit', newFormHandler);
+
+// document
+//   .querySelector('.project-list')
+//   .addEventListener('click', delButtonHandler);

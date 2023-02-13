@@ -1,6 +1,33 @@
 const router = require('express').Router();
-const { Score, User } = require('../../models'); 
+const { Score, User } = require('../../models');
+const withAuth = require('../../utils/auth');
 
+
+// pull single user's scores?
+router.get('/:id', async (req, res) => {
+  try {
+    // Get all scores and JOIN with user data
+    const scoreData = await Score.findOne(
+      {
+        where: {
+          id: req.params.id,
+          // user_id: req.session.user_id,
+        },
+      include: [
+        {
+          model: User,
+          attributes: ['id'],
+          // model: Score,
+          // attributes: ['date_created', 'time_created'],
+        },
+      ],
+    }
+    );
+    res.status(200).json(scoreData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 //this could be used for scores of user
 //or whatever endpoint is called
