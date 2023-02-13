@@ -1,17 +1,17 @@
-        <main>
-            <div class="row">
-                <div class="card mx-auto tanslate-middle text-bg mb-3"
-                    style="max-width: 18rem;">
-                    <h1 class="text-center">{{user.username}} Scores</h1>
-                    <section>
-                        {{#each user.score as |score|}}
-                        <div>
-                          <h3>{{user.score}}</h3>
-                          <p>{{user.date}}</p>
-                        </div>
-                        {{/each}}
-                      </section>
-                      <button>Play Again</button>
-                </div>
-            </div>
-        </main>
+<main>
+  <div class="row">
+    <div class="card mx-auto tanslate-middle text-bg mb-3" style="max-width: 18rem;">
+      <h1 class="text-center">{{user.username}}'s Scores</h1>
+      <section>
+        {{#each scores as |score|}}
+        <div>
+          <p>{{score.game_score[0]}}</p>
+          <p>{{score.date_created}}</p>
+          <p>{{score.time_created}}</p>
+        </div>
+        {{/each}}
+      </section>
+      <button>Play Again</button>
+    </div>
+  </div>
+</main>
