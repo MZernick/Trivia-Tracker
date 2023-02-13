@@ -66,11 +66,11 @@ router.post('/login', async (req, res) => {
 });
 
 //what's page/ current score?
-router.get('/highscores', async (req, res) => {
+// router.get('/highscores', async (req, res) => {
   //something like 
   //if 
   //const newUserHighscore=  req.session.user_high_Score
-});
+// });
 
 //logout and gets rid of session info and redirects to main page
 router.post('/', (req, res) => {
