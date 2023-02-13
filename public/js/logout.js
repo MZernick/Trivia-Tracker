@@ -8,7 +8,7 @@ const logout = async () => {
 
   if (response.ok) {
     document.location.replace('/');
-    navSignup.style.display = flex;
+    // navSignup.style.display = flex;
     navLogin.style.display = flex;
     navLogout.style.display = none;
   } else {
