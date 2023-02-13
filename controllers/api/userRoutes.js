@@ -18,8 +18,8 @@ router.post('/signup', async (req, res) => {
     const userData = await User.create(req.body);
 
     req.body.save(() => {
-      req.body.username = username;
-      req.body.password = password;
+      req.body.username = username,
+      req.body.password = password,
       // req.session.logged_in = true;
 
       res.status(200).json(userData);
@@ -66,7 +66,7 @@ router.post('/login', async (req, res) => {
 });
 
 //what's page/ current score?
-router.post('/highscores', async (req, res) => {
+router.get('/highscores', async (req, res) => {
   //something like 
   //if 
   //const newUserHighscore=  req.session.user_high_Score
