@@ -75,12 +75,12 @@ var checkAnswer = function() {
         
         console.log("game over")
         console.log(scoreCount)
-    fetch(`/api/score/newscore`, {
+    fetch('/api/score/newscore', {
       method: 'POST',
-      body: ({game_score: scoreCount, user_id: 1}),
-    //   headers: {
-    //     'Content-Type': 'text/plain',
-    //   },
+      body: JSON.stringify({game_score: scoreCount}),
+      headers: {
+        'Content-Type': 'text/plain',
+      },
     });
     } else {
       renderQuestions()
