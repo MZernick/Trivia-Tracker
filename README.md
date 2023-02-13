@@ -36,7 +36,7 @@ Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com/
 * Michael Escamilla: https://github.com/mescamilla1114
 
 # Original Idea
-</assets/P2 wireframe.JPG>
+![P2 wireframe](public/images/P2 wireframe.JPG)
 
 # IceBox
 
