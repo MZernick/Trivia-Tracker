@@ -40,13 +40,17 @@ aside {
   background-color: var(--secondary);
   align-items: center;
   flex-flow: row-reverse;
+  height: 100px;
 }
 
 .trivia-gif {
   padding: 20px;
-  margin-top:40px;
   margin-left:50px;
-
+  width:60%;
+  height: 60%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
 }
 
 .scores-container {
