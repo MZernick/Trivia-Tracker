@@ -29,6 +29,8 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
+console.log(username)
+console.log("testings response")
       // If successful, redirect the browser to the trivia question page 
       //will game happen on main page? Is route for the game /trivia or /game?
       window.location.replace('/trivia');
