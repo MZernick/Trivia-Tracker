@@ -9,17 +9,17 @@ router.get('/', async (req, res) => {
   try {
     // Get all scores and JOIN with user data
     const scoreData = await Score.findAll(
-    //   {
-    //   include: [
-    //     {
-    //       model: User,
-    //       attributes: ['id'],
-    //       model: Score,
-    //       attributes: ['date_created'],
+      {
+      include: [
+        {
+          model: User,
+          attributes: ['id'],
+          model: Score,
+          attributes: ['date_created'],
           
-    //     },
-    //   ],
-    // }
+        },
+      ],
+    }
     );
     
     res.status(200).json(scoreData);
