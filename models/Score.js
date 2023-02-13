@@ -15,7 +15,12 @@ Score.init(
       type: DataTypes.INTEGER,
     },
     date_created: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
+      allowNull: false,
+      defaultValue: DataTypes.NOW,
+    },
+    time_created: {
+      type: DataTypes.TIME,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },

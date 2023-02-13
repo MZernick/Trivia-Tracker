@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
           model: User,
           attributes: ['id'],
           model: Score,
-          attributes: ['date_created'],
+          attributes: ['date_created', 'time_created'],
           
         },
       ],
