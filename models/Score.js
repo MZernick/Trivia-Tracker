@@ -11,12 +11,14 @@ Score.init(
       primaryKey: true,
       autoIncrement: true,        
     },
+    game_score: {
+      type: DataTypes.INTEGER,
+    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    
     user_id: {
       type: DataTypes.INTEGER,
       references: {
