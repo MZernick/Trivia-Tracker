@@ -38,7 +38,6 @@ router.post('/signup', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const userData = await User.findOne({ where: { username: req.body.username } });
-console.log(userData);
     if (!userData) {
       res
         .status(400)
@@ -57,7 +56,7 @@ console.log(validPassword);
     }
     //both work and get the user id and change the logged in value
     req.session.save(() => {
-      req.session.user_id = userData.id;
+      // req.session.user_id = userData.id;
       req.session.logged_in = true;
       
       res.json({ user: userData, message: 'You are now logged in!' });
