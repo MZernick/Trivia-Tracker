@@ -20,7 +20,7 @@ const loginFormHandler = async (event) => {
   // Collect values from the login form
   const username = document.getElementById("username-login").value.trim();
   const password = document.getElementById("password-login").value.trim();
-
+  console.log(username);
   if (username && password) {
     // Send a POST request to the API endpoint
     const response = await fetch('/api/users/login', {
@@ -32,7 +32,7 @@ const loginFormHandler = async (event) => {
     if (response.ok) {
       // If successful, redirect the browser to the trivia question page 
       //will game happen on main page? Is route for the game /trivia or /game?
-      document.location.replace('/trivia');
+      window.location.replace('/trivia');
       hideNavLogin();
       addNavLogoutEl();
     } else {
