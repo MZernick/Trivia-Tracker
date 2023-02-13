@@ -77,10 +77,10 @@ var checkAnswer = function() {
         console.log(scoreCount)
     fetch(`/api/score/newscore`, {
       method: 'POST',
-      body: ({scoreCount}),
-      headers: {
-        'Content-Type': 'text/plain',
-      },
+      body: ({game_score: scoreCount, user_id: 1}),
+    //   headers: {
+    //     'Content-Type': 'text/plain',
+    //   },
     });
     } else {
       renderQuestions()
