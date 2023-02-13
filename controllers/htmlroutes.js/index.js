@@ -50,9 +50,6 @@ router.get('/users/:id', async (req, res) => {
     // Get all user scores and JOIN with user data
     const scoreData = await User.findByPk(req.params.id, {
       
-      // order: [
-      //     ['DESC']
-      // ],
       include: [
         {
           model: Score,
@@ -63,10 +60,10 @@ router.get('/users/:id', async (req, res) => {
         },
       ],
     });
-    console.log(scoreData);
+    // console.log(scoreData);
     // Serialize data so the template can read it
-    const scores = scoreData.map((score) => score.get({ plain: true }));
-
+    const scores = scoreData.get({ plain: true });
+    console.log(scores);
     // Pass serialized data and session flag into template
     res.render('userscores', {
       ...scores,

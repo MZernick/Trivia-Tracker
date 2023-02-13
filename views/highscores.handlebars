@@ -3,12 +3,10 @@
             <div class="card mx-auto tanslate-middle text-bg mb-3" style="max-width: 18rem;">
               <h1 class="text-center">High Scores</h1>
               <section>
-                {{#each scores as |score|}}
+                {{#each scores as |score index|}}
                 <div>
-                  <h5>{{score.user.username}}</h5>
+                  <h5>{{index}}: {{score.user.username}}</h5>
                   <p>{{score.game_score}}</p>
-                  <p>{{score.date_created}}</p>
-                   <p>{{score.time_created}}</p>
                 </div>
                 {{/each}}
               </section>
