@@ -13,6 +13,10 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
+router.get('/userscores', (req, res) => {
+  res.render('userscores');
+});
+
 router.get('/trivia', (req, res) => {
   res.render('trivia');
 });

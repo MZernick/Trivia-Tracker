@@ -69,11 +69,12 @@ const signupFormHandler = async (event) => {
 console.log(btnSignup);
 
 
-// document
-//   .querySelector('.login-form')
+ document
+.querySelector('.signup-form');
+btnSignup.addEventListener('click', signupFormHandler);
 //   .addEventListener('submit', loginFormHandler);
 
-window.onload=function(){
+/*window.onload=function(){
  btnSignup.addEventListener('click', signupFormHandler);
-}
+}*/
   
