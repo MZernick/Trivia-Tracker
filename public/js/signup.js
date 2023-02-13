@@ -56,7 +56,7 @@ const signupFormHandler = async (event) => {
     if (response.ok) {
       // correct path as needed to direct to trivia questions /game or /trivia? Update loginFormHandler to the same.
       window.location.replace('/trivia');
-      alert(response.statusText);
+      // alert(response.statusText);
       hideNavLogin();
       addNavLogoutEl();
     } else {

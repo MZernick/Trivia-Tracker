@@ -1,4 +1,4 @@
-let navLogout = document.getElementById("nav-logout");
+let navLogout = document.getElementById("logout");
 
 const logout = async () => {
   const response = await fetch('/api/users/logout', {
@@ -9,8 +9,8 @@ const logout = async () => {
   if (response.ok) {
     document.location.replace('/');
     // navSignup.style.display = flex;
-    navLogin.style.display = flex;
-    navLogout.style.display = none;
+    // navLogin.style.display = flex;
+    // navLogout.style.display = none;
   } else {
     alert(response.statusText);
   }

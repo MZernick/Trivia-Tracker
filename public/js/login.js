@@ -31,8 +31,8 @@ const loginFormHandler = async (event) => {
     if (response.ok) {
       // If successful, redirect the browser to the trivia question page 
       //will game happen on main page? Is route for the game /trivia or /game?
-      document.location.replace('/trivia');
-      // alert(response.statusText);
+      window.location.replace('/trivia');
+      alert(response.statusText);
       // hideNavLogin();
       // addNavLogoutEl();
     } else {
@@ -43,37 +43,9 @@ const loginFormHandler = async (event) => {
 };
 console.log(btnLogin);
 
+console.log(btnLogin);
+
 window.onload = function(){
   btnLogin.addEventListener('click', loginFormHandler);
 }
-// const signupFormHandler = async (event) => {
-//   event.preventDefault();
-
-//   const username = document.querySelector('#username-signup').value.trim();
-//   const password = document.querySelector('#password-signup').value.trim();
-//   if (username && password) {
-//     const response = await fetch('/api/users/signup', {
-//       method: 'POST',
-//       body: JSON.stringify({username, password }),
-//       headers: { 'Content-Type': 'application/json' },
-//     });
-
-//     if (response.ok) {
-//       // correct path as needed to direct to trivia questions /game or /trivia? Update loginFormHandler to the same.
-//       document.location.replace('/trivia');
-//       hideNavLoginSignup();
-//       addNavLogoutEl();
-//     } else {
-//       alert(response.statusText);
-//       // alert('Failed to sign up.');
-//     }
-//   }
-// };
-
-// document
-//   .querySelector('.login-form')
-//   .addEventListener('submit', loginFormHandler);
-
-
-
   
