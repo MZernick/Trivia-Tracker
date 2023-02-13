@@ -25,7 +25,6 @@ User.init(
       type: DataTypes.INTEGER,
       allowNull: true,
     },
-
     // scores: {
     //   type: DataTypes.INTEGER,
     //   references: {
@@ -33,7 +32,6 @@ User.init(
     //     key: 'user_score',
     //   },
     // },
-
 },
     {
         sequelize,
