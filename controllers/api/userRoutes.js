@@ -15,18 +15,22 @@ router.get('/', async (req, res) => {
 
 router.post('/signup', async (req, res) => {
   try {
+    console.log("signupRouteTest")
     const userData = await User.create(req.body);
 
     req.body.save(() => {
-      req.body.username = username,
-      req.body.password = password,
+      // req.body.username = username,
+      // req.body.password = password,
       // req.session.logged_in = true;
 
       res.status(200).json(userData);
       console.log(userData);
     });
   } catch (err) {
-    res.status(400).json(err);
+  
+    // res.status(400).json(err);
+    console.log("test error route")
+
   }
 });
 
@@ -38,7 +42,7 @@ router.post('/login', async (req, res) => {
     if (!userData) {
       res
         .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
+        .json({ message: 'Incorrect username or password, please try again' });
       return;
     }
 
@@ -48,7 +52,7 @@ router.post('/login', async (req, res) => {
     if (!validPassword) {
       res
         .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
+        .json({ message: 'Incorrect username or password, please try again' });
       return;
     }
     //both work and get the user id and change the logged in value

@@ -71,7 +71,7 @@ console.log(btnLogin);
 //   .addEventListener('submit', loginFormHandler);
 
 
-window.onload=function(){
+window.onload = function(){
   btnLogin.addEventListener('submit', loginFormHandler);
 }
   
