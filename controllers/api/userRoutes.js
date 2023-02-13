@@ -2,13 +2,11 @@ const router = require('express').Router();
 const { User } = require('../../models');
 //check to see if user is already logged in
 
-// GET all user
+// GET all user - WORKS
 router.get('/', async (req, res) => {
-  res.render('home');
   try {
-    res.render('home');
-    const userData = await User.findAll();
-    
+    // res.render('home');
+    const userData = await User.findAll();    
     res.status(200).json(userData);
   } catch (err) {
     res.status(500).json(err);
@@ -19,9 +17,10 @@ router.post('/signup', async (req, res) => {
   try {
     const userData = await User.create(req.body);
 
-    req.session.save(() => {
-      req.session.user_id = userData.id;
-      req.session.logged_in = true;
+    req.body.save(() => {
+      req.body.username = username,
+      req.body.password = password,
+      // req.session.logged_in = true;
 
       res.status(200).json(userData);
       console.log(userData);
@@ -31,18 +30,8 @@ router.post('/signup', async (req, res) => {
   }
 });
 
-/*router.get('/', async (req, res) => {
-  try {
-    const userData = await User.findAll();
-    res.render('home');
-    res.status(200).json(userData);
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});*/
-
 //on the login page and rejects not found email
-router.post('/', async (req, res) => {
+router.post('/login', async (req, res) => {
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
 
@@ -77,11 +66,11 @@ router.post('/', async (req, res) => {
 });
 
 //what's page/ current score?
-router.post('/highscores', async (req, res) => {
+// router.get('/highscores', async (req, res) => {
   //something like 
   //if 
   //const newUserHighscore=  req.session.user_high_Score
-});
+// });
 
 //logout and gets rid of session info and redirects to main page
 router.post('/', (req, res) => {
