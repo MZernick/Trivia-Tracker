@@ -30,17 +30,15 @@ router.get('/', async (req, res) => {
 
 router.post('/newscore', async (req, res) => {
   try {
-    const newScore = await Score.create(req.body);
-
-    req.body.json(() => {
-      req.body.game_score = game_score,
-      req.body.user_id = user_id,
-      // req.session.logged_in = true;
+    const newScore = await Score.create({
+      ...req.body,
+      user_id: req.session.user_id,
+      //user_id: 1 WORKS but need ^ session to work properly
+    });
  
     res.status(200).json(newScore);
       console.log(newScore);
-    });
-  } catch (err) {
+    } catch (err) {
     res.status(400).json(err);
   }
 });
