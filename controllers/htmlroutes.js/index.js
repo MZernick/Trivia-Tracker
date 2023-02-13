@@ -34,7 +34,10 @@ router.get('/highscores', async (req, res) => {
 
     // Serialize data so the template can read it
     const scores = scoreData.map((score) => score.get({ plain: true }));
-
+    const tutor = scores.map((score, index) => score.place = index +1);
+    console.log(tutor);
+    // score.place = index +1});
+    // console.log(scores);
     // Pass serialized data and session flag into template
     res.render('highscores', {
       scores,
