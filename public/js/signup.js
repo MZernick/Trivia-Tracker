@@ -55,7 +55,7 @@ const signupFormHandler = async (event) => {
 
     if (response.ok) {
       // correct path as needed to direct to trivia questions /game or /trivia? Update loginFormHandler to the same.
-      document.location.replace(`/trivia`);
+      document.location.replace('/trivia');
       alert(response.statusText);
       hideNavLogin();
       addNavLogoutEl();
@@ -68,11 +68,12 @@ const signupFormHandler = async (event) => {
 console.log(btnSignup);
 
 
-// document
-//   .querySelector('.login-form')
+ document
+.querySelector('.signup-form');
+btnSignup.addEventListener('click', signupFormHandler);
 //   .addEventListener('submit', loginFormHandler);
 
-window.onload=function(){
+/*window.onload=function(){
  btnSignup.addEventListener('click', signupFormHandler);
-}
+}*/
   

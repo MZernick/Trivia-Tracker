@@ -23,6 +23,7 @@ User.init(
     },
     high_score: {
       type: DataTypes.INTEGER,
+      allowNull: true,
     },
 
     // scores: {
