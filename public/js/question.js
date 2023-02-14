@@ -8,7 +8,7 @@ var scoreCount = 0;
 
 async function getQuestions() {
   const fetchedQs = await fetch(
-    "https://the-trivia-api.com/api/questions?limit=20",
+    "https://the-trivia-api.com/api/questions?limit=5",
     {
       method: "GET",
       headers: {
