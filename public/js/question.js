@@ -82,10 +82,10 @@ var checkAnswer = function() {
         'Content-Type': 'application/json',
       },
       
-    });
-    if (response.ok) {
-        document.location.replace('/profile');
-      }
+    }
+).then(window.location.replace('/userscores'));
+    // if (response.ok) {
+    //   }
     } else {
       renderQuestions()
     }
