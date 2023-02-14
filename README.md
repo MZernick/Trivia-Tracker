@@ -14,7 +14,7 @@ Trivia Game is an application for entertainment. Test your knowledge of random f
 
 # Getting Started
 
-Sign up for an account. The application will track your statistics.
+Sign up for an account. Password must be at least 8 characters.
 
 # Instructions
 
@@ -26,7 +26,7 @@ Sign up for an account. The application will track your statistics.
 
 # Built Using
 
-Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com/
+Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com
 
 # Authors
 
@@ -36,7 +36,7 @@ Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com/
 * Michael Escamilla: https://github.com/mescamilla1114
 
 # Original Idea
-![P2 wireframe](public/images/P2 wireframe.JPG)
+![P2 wireframe](assets/P2 wireframe.JPG)
 
 # IceBox
 
