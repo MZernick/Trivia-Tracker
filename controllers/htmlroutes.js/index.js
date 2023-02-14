@@ -13,9 +13,9 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-router.get('/userscores', (req, res) => {
-  res.render('userscores');
-});
+// router.get('/userscores', (req, res) => {
+//   res.render('userscores');
+// });
 
 router.get('/trivia', (req, res) => {
   res.render('trivia');
@@ -52,10 +52,11 @@ router.get('/highscores', async (req, res) => {
   }
 });
 //how to link this to the user ID??
-router.get('/users/:id', async (req, res) => {
+router.get('/userscores', async (req, res) => {
+  console.log("hello")
   try {
     // Get all user scores and JOIN with user data
-    const scoreData = await User.findByPk(req.params.id, {
+    const scoreData = await User.findByPk(req.session.user_id, {
       
       include: [
         {
