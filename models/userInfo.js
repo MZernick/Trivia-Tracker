@@ -1,9 +1,10 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const bcrypt = require('bcrypt');
+const sequelize = require("../config/connection");
 
 class User extends Model {
   checkPassword(loginPw) {
-    return (loginPw == this.password);
+    return bcrypt.compareSync(loginPw, this.password);
   }
 }
 
@@ -23,6 +24,9 @@ User.init(
     password: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        len: [8],
+      },
     },
     high_score: {
       type: DataTypes.INTEGER,
@@ -35,13 +39,26 @@ User.init(
     //     key: 'user_score',
     //   },
     // },
-},
-    {
-        sequelize,
-        freezeTableName: true,
-        underscored: true,
-        modelName: 'user',
-      }
+  },
+  {
+    hooks: {
+      beforeCreate: async (newUserData) => {
+        newUserData.password = await bcrypt.hash(newUserData.password, 10);
+        return newUserData;
+      },
+      beforeUpdate: async (updatedUserData) => {
+        updatedUserData.password = await bcrypt.hash(
+          updatedUserData.password,
+          10
+        );
+        return updatedUserData;
+      },
+    },
+    sequelize,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "user",
+  }
 );
 
 module.exports = User;
