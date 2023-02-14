@@ -30,11 +30,7 @@ router.get('/highscores', async (req, res) => {
 
     // Serialize data so the template can read it
     const scores = scoreData.map((score) => score.get({ plain: true }));
-    const tutor = scores.map((score, index) => score.place = index +1);
-    console.log(tutor);
-    // score.place = index +1});
-    // console.log(scores);
-    // Pass serialized data and session flag into template
+    const tutor = scores.map((score, index) => score.place = index + 1);
     res.render('highscores', {
       scores,
       logged_in: req.session.logged_in
@@ -43,23 +39,21 @@ router.get('/highscores', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 router.get('/userscores', async (req, res) => {
   console.log("hello")
   try {
     // Get all user scores and JOIN with user data
     const scoreData = await User.findByPk(req.session.user_id, {
-      
+
       include: [
         {
           model: Score,
           attributes: ['game_score', 'date_created', 'time_created'],
-          // order: [
-          //   ['time_created', 'DESC']
-          // ],
         },
       ],
     });
-    // console.log(scoreData);
+
     // Serialize data so the template can read it
     const scores = scoreData.get({ plain: true });
     console.log(scores);

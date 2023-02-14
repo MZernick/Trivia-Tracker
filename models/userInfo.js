@@ -32,13 +32,6 @@ User.init(
       type: DataTypes.INTEGER,
       allowNull: true,
     },
-    // scores: {
-    //   type: DataTypes.INTEGER,
-    //   references: {
-    //     model: 'score',
-    //     key: 'user_score',
-    //   },
-    // },
   },
   {
     hooks: {

@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Score, User } = require('../models');
+
 const withAuth = require('../utils/auth');
 // Use withAuth middleware to prevent access to route
 router.get('/', withAuth, async (req, res) => {
@@ -22,3 +23,4 @@ router.get('/', withAuth, async (req, res) => {
   });
   
   module.exports = router;
+

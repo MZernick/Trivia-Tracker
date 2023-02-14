@@ -1,3 +1,4 @@
+const anime = require('animejs');
 var questionEl = document.querySelector("#question");
 var scoreEl = document.querySelector("#score");
 var btns = document.querySelector("#btns");
@@ -5,9 +6,10 @@ var questions = [];
 var currentQuestion = 0;
 var scoreCount = 0;
 
+
 async function getQuestions() {
   const fetchedQs = await fetch(
-    "https://the-trivia-api.com/api/questions?limit=3",
+    "https://the-trivia-api.com/api/questions?limit=20",
     {
       method: "GET",
       headers: {
@@ -43,7 +45,6 @@ function renderQuestions() {
   var answers = questionIndex.incorrectAnswers;
   answers.push(questionIndex.correctAnswer);
   var randomAnswers = shuffleArray(answers);
-
   btns.innerHTML = "";
   randomAnswers.forEach((answer) => {
     var button = document.createElement("button");
