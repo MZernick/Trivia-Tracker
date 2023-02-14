@@ -13,10 +13,6 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-router.get('/trivia', (req, res) => {
-  res.render('trivia');
-});
-
 router.get('/highscores', async (req, res) => {
   try {
     // Get all scores and JOIN with user data
