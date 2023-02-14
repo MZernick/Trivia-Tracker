@@ -22,6 +22,7 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
     "node-fetch": "^3.3.0",
+    "password-revealer": "^1.1.1",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {

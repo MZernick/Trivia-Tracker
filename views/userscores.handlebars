@@ -1,13 +1,13 @@
 <main class="container mt-5">
   <div class="row">
     <div class="scores-card mx-auto" style="max-width: 18rem;">
-      <h1 class="user-card-header">{{username}} Scores</h1>
+      <h1 class="user-card-header">{{username}}'s Scores</h1>
       {{#each scores as |score|}}
       <section>
-        <div class=" row answer-btn">
-          <h1 class="col-4">{{score.game_score}} </h1>
-           <p class="col-4">{{score.date_created}} </p>
-           <p class="col-4 text-end">{{score.time_created}}</p>
+        <div class="row answer-btn ms-1 me-1">
+          <h1 class="col-3">{{score.game_score}} </h1>
+           <p class="col-6">{{score.date_created}} </p>
+           <p class="col-3 text-end">{{score.time_created}}</p>
         </div>
         {{/each}}
       </section>

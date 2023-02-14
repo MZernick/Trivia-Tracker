@@ -44,7 +44,7 @@ Ideas pending for possible future development:
 
 1. Selectable trivia question categories (i.e. music, sports, history).
 2. Scores & High Scores by category.
-3. 
+3. In
 
 ## License
 
