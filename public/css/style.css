@@ -43,7 +43,6 @@ aside {
 
 .trivia-gif {
   padding: 20px;
-  margin-left:50px;
   width:60%;
   height: 60%;
   padding-right: calc(var(--bs-gutter-x) * .5);
@@ -95,7 +94,7 @@ aside {
   flex: 0 1 300px;
   padding: 5px;
   width: 35%;
-  min-width: 35%;
+  min-width: 50%;
   border: 3px solid var(--secondary);
   border-radius: var(--border-radius);
   border-style: solid;
@@ -131,6 +130,7 @@ aside {
   border-width: thick;
   background-color: var(--light);
   color: var(--dark);
+  word-spacing: 2em;
 }
 
 .trivia-card-header {
@@ -170,6 +170,7 @@ aside {
 }
 
 .answer-btn {
+  align-items: center;
   text-align: center;
   border-radius: 50px;
   color: var(--dark);
