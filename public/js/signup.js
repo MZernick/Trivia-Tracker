@@ -1,16 +1,4 @@
-// let navSignup = document.getElementById("nav-signup");
-// let navLogin = document.getElementById("nav-login")
 let btnSignup = document.getElementById("signup-btn")
-
-// //Create nav bar log out p element to replace login and sign up
-// function addNavLogoutEl() {
-//   const newEl = document.createElement("p");
-//   const logOut = document.createTextNode("Log out");
-//   newEl.classList.add("nav-link active");
-//   newEl.setAttribute("id","nav-logout")
-//   newEl.appendChild(logOut);
-//   document.body.insertBefore(newEl, navLogin);
-// }
 
 const signupFormHandler = async (event) => {
   event.preventDefault();
@@ -28,7 +16,6 @@ const signupFormHandler = async (event) => {
     if (response.ok) {
       // redirect to trivia questions 
       window.location.replace('/trivia');
-      // alert(response.statusText);
       hideNavLogin();
       addNavLogoutEl();
     } else {

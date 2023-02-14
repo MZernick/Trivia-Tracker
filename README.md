@@ -26,7 +26,7 @@ Sign up for an account. Password must be at least 8 characters.
 
 # Built Using
 
-Handlebars.js, Node.js, Express.js, MySQL, Sequelize, the-trivia-api.com
+Handlebars.js, Node.js, Express.js, MySQL, Sequelize, bcrypt, questions from the-trivia-api.com, image from tenor.com.
 
 # Authors
 
@@ -44,7 +44,7 @@ Ideas pending for possible future development:
 
 1. Selectable trivia question categories (i.e. music, sports, history).
 2. Scores & High Scores by category.
-3. In
+3. Ability for users to set an avatar or profile image.
 
 ## License
 
