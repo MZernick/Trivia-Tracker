@@ -47,7 +47,7 @@ try {
         .json({ message: 'Incorrect username or password, please try again' });
       return;
     }
-    console.log("50", userData)
+    console.log("userRoutes.js line 50", userData)
     // checks the password 
     const validPassword = await userData.checkPassword(req.body.password);
     console.log(userData)
