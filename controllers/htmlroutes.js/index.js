@@ -13,14 +13,6 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-// router.get('/userscores', (req, res) => {
-//   res.render('userscores');
-// });
-
-router.get('/trivia', (req, res) => {
-  res.render('trivia');
-});
-
 router.get('/highscores', async (req, res) => {
   try {
     // Get all scores and JOIN with user data
@@ -51,7 +43,6 @@ router.get('/highscores', async (req, res) => {
     res.status(500).json(err);
   }
 });
-//how to link this to the user ID??
 router.get('/userscores', async (req, res) => {
   console.log("hello")
   try {
@@ -82,5 +73,4 @@ router.get('/userscores', async (req, res) => {
   }
 });
 
-// });
 module.exports = router;

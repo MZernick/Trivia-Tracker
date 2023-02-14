@@ -1,21 +1,21 @@
-let btnLogin = document.getElementById("login-btn")
+let btnLogin = document.getElementById("login-btn");
 
 const loginFormHandler = async (event) => {
   event.preventDefault();
   // Collect values from the login form
-  const username = document.querySelector('#username-login').value.trim();
-  const password = document.querySelector('#password-login').value.trim();
+  const username = document.querySelector("#username-login").value.trim();
+  const password = document.querySelector("#password-login").value.trim();
 
   if (username && password) {
-    const response = await fetch('/api/users/login', {
-      method: 'POST',
+    const response = await fetch("/api/users/login", {
+      method: "POST",
       body: JSON.stringify({ username, password }),
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
     });
 
     if (response.ok) {
-      // redirect the browser to the trivia question page 
-      window.location.replace('/trivia');
+      // redirect the browser to the trivia question page
+      window.location.replace("/trivia");
     } else {
       console.log(response);
       alert(response.statusText);
@@ -26,7 +26,6 @@ console.log(btnLogin);
 
 console.log(btnLogin);
 
-window.onload = function(){
-  btnLogin.addEventListener('click', loginFormHandler);
-}
-  
+window.onload = function () {
+  btnLogin.addEventListener("click", loginFormHandler);
+};
