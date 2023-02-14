@@ -22,30 +22,37 @@
         <a class="navbar-brand" href="/">Trivia Tracker</a>
         <div class="collapse navbar-collapse navbar-text">
           <ul class="navbar-nav">
-            
-              {{#if logged_in}}
-                {{!-- <li class="nav-item">
-              <a class="nav-link active" href="userscores" id="userscores">Profile</a>
-            </li> --}}
-                <li class="nav-item active">
-                    <a class="nav-link" id="logout">Logout</a> </li>
-              {{else}}
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="login"
-                  id="nav-login"
-                >Login</a>
-              {{/if}}
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/highscores">High Scores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/userscores">Profile</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="/">Home</a>
+            </li>
+            {{#if logged_in}}
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="userscores"
+                  id="userscores"
+                >Profile</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" id="logout">Logout</a>
+              </li>
+            {{else}}
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="login"
+                id="nav-login"
+              >Login</a>
+                            <a
+                class="nav-link active"
+                aria-current="page"
+                href="signup"
+                id="nav-login"
+              >Sign up</a>
+            {{/if}}
+
+            <li class="nav-item">
+              <a class="nav-link" href="/highscores">High Scores</a>
             </li>
           </ul>
         </div>
@@ -60,9 +67,8 @@
       crossorigin="anonymous"
     ></script>
     {{#if logged_in}}
-  <script src="./js/logout.js"></script>
-  {{!-- <script src="./js/userscores.js"></script> --}}
-  {{/if}}
+      <script src="./js/logout.js"></script>
+    {{/if}}
   </body>
 
 </html>
