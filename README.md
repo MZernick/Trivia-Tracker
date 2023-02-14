@@ -18,11 +18,10 @@ Sign up for an account. Password must be at least 8 characters.
 
 # Instructions
 
-1. Log in or sign up.
-2. Trivia questions are then displayed.
-3. Select an answer and the next question will be displayed.
-4. 
-5. 
+1. After the page landing page is loaded, click sign up if this is your first visit. Otherwise, (welcome back!)click login and enter your username and password.
+3. See all your scores at the end of the game and from your Profile. 
+4. Click "Play Again" from your Profile page to give it another try!
+5. See how you compare to other players on the High Scores board.
 
 # Built Using
 
