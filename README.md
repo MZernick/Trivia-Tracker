@@ -1,4 +1,4 @@
-# Trivia Game
+# Trivia Tracker
 
 <ADD DEPLOYED link HERE>
 Version 1.0
@@ -45,6 +45,8 @@ Ideas pending for possible future development:
 1. Selectable trivia question categories (i.e. music, sports, history).
 2. Scores & High Scores by category.
 3. Ability for users to set an avatar or profile image.
+4. End game after 3 wrong answers.
+5. Add animation to trivia answer buttons.
 
 ## License
 
