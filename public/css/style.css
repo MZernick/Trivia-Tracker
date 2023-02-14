@@ -1,10 +1,10 @@
 :root {
   --primary: #389393;
-  --secondary: #7FFF00;
+  --secondary: #60f603;
   --tertiary: #9f147f;
   --quatrinary: #6c6b67;
   --light: #ebebeb;
-  --dark: #182c23;
+  --dark: rgb(47,51,45);
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
 }
@@ -14,7 +14,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
-  background-color: var(--quatrinary);
+  background: var(--dark);
+  background: linear-gradient(0deg, rgba(44,47,42,1) 0%, rgba(130,172,103,1) 100%);
 }
 
 header {
@@ -35,7 +36,8 @@ aside {
 
 #navbarNav {
   display: flex;
-  background-color: var(--secondary);
+  color: var(--secondary);
+  background: var(--secondary);
   align-items: center;
   flex-flow: row-reverse;
   height: 100px;
@@ -73,6 +75,19 @@ aside {
 
 /* CARDS */
 .home-card {
+  align-items: center;
+  height: 250px;
+  padding: 10px;
+  max-width: 70%;
+  border: 3px solid var(--secondary);
+  border-radius: var(--border-radius);
+  border-style: solid;
+  border-width: thick;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.login-card {
   margin: 20px;
   margin-top: 40px;
   flex: 0 1 300px;
@@ -176,5 +191,6 @@ aside {
   color: var(--dark);
   padding: 20px;
   margin: 1rem;
-  background-color: #7FFF00;
+  /* background-color: #7FFF00; */
+  background: linear-gradient(0deg, rgba(145,168,132,1) 0%, rgba(96,246,3,1) 27%);
 }
