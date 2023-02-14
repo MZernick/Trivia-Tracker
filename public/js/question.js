@@ -57,7 +57,13 @@ function renderQuestions() {
         },
         )
 }
-
+// var animation = anime({
+//     targets: '.answer-btn',
+//     width: '100%', // -> from '28px' to '100%',
+//     easing: 'easeInOutExpo',
+//     direction: 'normal',
+//     loop: 0
+//   });
 var checkAnswer = function() {
 
     if (this.value !== questions[currentQuestion].correctAnswer) {
