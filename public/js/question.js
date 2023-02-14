@@ -1,3 +1,4 @@
+const anime = require('animejs');
 var questionEl = document.querySelector("#question");
 var scoreEl = document.querySelector("#score");
 var btns = document.querySelector("#btns");
@@ -8,7 +9,7 @@ var scoreCount = 0
 
 
 async function getQuestions() { 
-    const fetchedQs = await fetch('https://the-trivia-api.com/api/questions?limit=3', {
+    const fetchedQs = await fetch('https://the-trivia-api.com/api/questions?limit=20', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
@@ -48,7 +49,7 @@ function renderQuestions() {
     btns.innerHTML = "";
     randomAnswers.forEach(answer => {
         var button = document.createElement("button");
-        button.setAttribute("class", "text-center rounded-pill answer-btn")
+        button.setAttribute("class", "col text-center rounded-pill answer-btn")
         button.setAttribute("style", "background-color: #7FFF00;")
         button.setAttribute("value", answer)
         button.textContent = answer;
@@ -57,20 +58,12 @@ function renderQuestions() {
         },
         )
 }
-// var animation = anime({
-//     targets: '.answer-btn',
-//     width: '100%', // -> from '28px' to '100%',
-//     easing: 'easeInOutExpo',
-//     direction: 'normal',
-//     loop: 0
-//   });
+
 var checkAnswer = function() {
 
     if (this.value !== questions[currentQuestion].correctAnswer) {
     console.log("incorrect"),
     currentQuestion++;
-    //   timerCount -=10;
-    //   timerEl.textContent = "Timer: " + timerCount;
     } else {
         scoreCount += 100,
         scoreEl.textContent = "Score: " + scoreCount;
@@ -90,8 +83,7 @@ var checkAnswer = function() {
       
     }
 ).then(window.location.replace('/userscores'));
-    // if (response.ok) {
-    //   }
+
     } else {
       renderQuestions()
     }

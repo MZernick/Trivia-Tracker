@@ -6,20 +6,20 @@
       <section>
         <div class="row answer-btn ms-1 me-1">
           <h1 class="col-3">{{score.game_score}} </h1>
-           <p class="col-6">{{score.date_created}} </p>
-           <p class="col-3 text-end">{{score.time_created}}</p>
+          <p class="col-6">{{score.date_created}} </p>
+          <p class="col-3 text-end">{{score.time_created}}</p>
         </div>
         {{/each}}
       </section>
-        {{#if logged_in}}      
+      {{#if logged_in}}
       <div class="text-center">
-      <a href="/trivia"><button class="answer-btn">Play Again</button></a>
+        <a href="/trivia"><button class="answer-btn">Play Again</button></a>
       </div>
-        {{else}}
+      {{else}}
       <div class="text-center">
-      <a href="/login"><button class="answer-btn">Login</button></a>
+        <a href="/login"><button class="answer-btn">Login</button></a>
       </div>
-        {{/if}}
+      {{/if}}
       </nav>
     </div>
   </div>
