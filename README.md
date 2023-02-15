@@ -20,9 +20,10 @@ Sign up for an account. Password must be at least 8 characters.
 # Instructions
 
 1. After the page landing page is loaded, click sign up if this is your first visit. Otherwise, (welcome back!) click login and enter your username and password.
-2. See all your scores at the end of the game and from your Profile. 
-3. Click "Play Again" from your Profile page to give it another try!
-4. See how you compare to other players on the High Scores board.
+2. Answer trivia questions.
+3. See all your scores at the end of the game and from your Profile. 
+4. Click "Play Again" from your Profile page to give it another try!
+5. See how you compare to other players on the High Scores board.
 
 # Built Using
 
