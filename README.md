@@ -1,6 +1,6 @@
 # Trivia Tracker
 
-<ADD DEPLOYED link HERE>
+https://trivia-tracker.herokuapp.com
 Version 1.0
 Deployment Date: February 2023
 
