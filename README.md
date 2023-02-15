@@ -1,17 +1,16 @@
 # Trivia Tracker
 
-<ADD DEPLOYED link HERE>
+https://trivia-tracker.herokuapp.com/
 Version 1.0
-Deployment Date: February 2023
+Deployment Date: February 15, 2023
 
 Contributors: Anita Banh, Magdalene Zernick, Erin Peifer, Michael Escamilla
 
 # Description
 
 Trivia Game is an application for entertainment. Test your knowledge of random facts! Answer questions and see how you rank on the scoreboard!
-![image](https://user-images.githubusercontent.com/120350675/218637390-bef3b73b-9bc8-4432-aa34-4c4ffc5214fd.png)
-![image](https://user-images.githubusercontent.com/120350675/218637624-471cbb76-d63b-49cb-886d-01938caf1ac9.png)
-
+![image](https://user-images.githubusercontent.com/120350675/219085567-8856098b-1495-4c25-b512-16b6c7174c92.png)
+![image](https://user-images.githubusercontent.com/120350675/219086041-04c29e37-cf82-4f06-8461-04b8134c5ab4.png)
 
 # Getting Started
 
@@ -46,7 +45,6 @@ Ideas pending for possible future development:
 2. Scores & High Scores by category.
 3. Ability for users to set an avatar or profile image.
 4. End game after 3 wrong answers.
-5. Add animation to trivia answer buttons.
 
 ## License
 
