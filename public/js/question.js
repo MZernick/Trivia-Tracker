@@ -54,6 +54,7 @@ function renderQuestions() {
     button.onclick = checkAnswer;
     btns.appendChild(button);
   });
+  window.scrollTo(0, btns.scrollHeight);
 }
 
 var checkAnswer = function() {
