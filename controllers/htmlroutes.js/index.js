@@ -17,6 +17,7 @@ router.get('/highscores', async (req, res) => {
   try {
     // Get all scores and JOIN with user data
     const scoreData = await Score.findAll({
+      limit: 10,
       order: [
         ['game_score', 'DESC']
       ],
