@@ -36,27 +36,24 @@ function shuffleArray(arr) {
     }
 var correct;
 function renderQuestions() {
-    scoreEl.textContent = "Score: " + scoreCount;
-    var questionIndex = questions[currentQuestion];
-    correct = questionIndex.correctAnswer
-    console.log(questions[currentQuestion].correctAnswer)
-    questionEl.textContent = questionIndex.question
-    var answers = questionIndex.incorrectAnswers;
-    answers.push(questionIndex.correctAnswer);
-    var randomAnswers = shuffleArray(answers)
-
-    btns.innerHTML = "";
-    randomAnswers.forEach(answer => {
-        var button = document.createElement("button");
-        button.setAttribute("class", "text-center rounded-pill answer-btn slim-btn")
-        button.setAttribute("style", "background-color: #7FFF00;")
-        button.setAttribute("value", answer)
-        button.textContent = answer;
-        button.onclick = checkAnswer;
-        btns.appendChild(button);
-        },
-        )
-        window.scrollTo(0, questionEl.scrollHeight);
+  scoreEl.textContent = "Score: " + scoreCount;
+  var questionIndex = questions[currentQuestion];
+  correct = questionIndex.correctAnswer;
+  console.log(questions[currentQuestion].correctAnswer);
+  questionEl.textContent = questionIndex.question;
+  var answers = questionIndex.incorrectAnswers;
+  answers.push(questionIndex.correctAnswer);
+  var randomAnswers = shuffleArray(answers);
+  btns.innerHTML = "";
+  randomAnswers.forEach((answer) => {
+    var button = document.createElement("button");
+    button.setAttribute("class", "text-center animate__animated animate__rubberBand rounded-pill answer-btn");
+    button.setAttribute("style", "background-color: #7FFF00;");
+    button.setAttribute("value", answer);
+    button.textContent = answer;
+    button.onclick = checkAnswer;
+    btns.appendChild(button);
+  });
 }
 
 var checkAnswer = function() {
