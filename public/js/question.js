@@ -1,39 +1,39 @@
 var questionEl = document.querySelector("#question");
 var scoreEl = document.querySelector("#score");
 var btns = document.querySelector("#btns");
-var questions = [];
+var questions = [];      
 var currentQuestion = 0;
 var scoreCount = 0;
 
 
-async function getQuestions() {
+async function getQuestions() { 
   const fetchedQs = await fetch(
     "https://the-trivia-api.com/api/questions?limit=5",
     {
       method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    }
-  )
-    .then((response) => response.json())
+        headers: {
+            'Content-Type': 'application/json'
+        },
+    })
+    .then ((response) => 
+    response.json())
     .then((fetchedQs) => {
-      questions = fetchedQs;
-      console.log(questions);
-      renderQuestions(questions);
-    });
-}
+            questions = fetchedQs
+            console.log(questions)
+            renderQuestions(questions)
+    })
+    }
 
 function shuffleArray(arr) {
-  for (var i = arr.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-
-    var temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-  }
-  return arr;
-}
+        for (var i = arr.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+    
+            var temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        return arr;
+    }
 var correct;
 function renderQuestions() {
   scoreEl.textContent = "Score: " + scoreCount;
@@ -54,33 +54,40 @@ function renderQuestions() {
     button.onclick = checkAnswer;
     btns.appendChild(button);
   });
+  window.scrollTo(0, btns.scrollHeight);
 }
 
-var checkAnswer = function () {
-  if (this.value !== questions[currentQuestion].correctAnswer) {
-    console.log("incorrect"), currentQuestion++;
+var checkAnswer = function() {
+
+    if (this.value !== questions[currentQuestion].correctAnswer) {
+    console.log("incorrect"),
+    currentQuestion++;
     //   timerCount -=10;
     //   timerEl.textContent = "Timer: " + timerCount;
-  } else {
-    (scoreCount += 100), (scoreEl.textContent = "Score: " + scoreCount);
-    currentQuestion++;
-  }
+    } else {
+        scoreCount += 100,
+        scoreEl.textContent = "Score: " + scoreCount;
+        currentQuestion++;
+    }
 
-  if (currentQuestion === questions.length) {
-    console.log("game over");
-    console.log(scoreCount);
-    const response = fetch("/api/score/newscore", {
-      method: "POST",
-      body: JSON.stringify({ game_score: scoreCount }),
+    if (currentQuestion === questions.length) {
+        
+        console.log("game over")
+        console.log(scoreCount)
+    const response = fetch('/api/score/newscore', {
+      method: 'POST',
+      body: JSON.stringify({ game_score:scoreCount }),
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
-    }).then(window.location.replace("/userscores"));
+      
+    }
+).then(window.location.replace('/userscores'));
     // if (response.ok) {
     //   }
-  } else {
-    renderQuestions();
+    } else {
+      renderQuestions()
+    }
   }
-};
 
-getQuestions();
+getQuestions()
