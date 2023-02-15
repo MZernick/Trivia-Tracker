@@ -26,7 +26,7 @@ Sign up for an account. Password must be at least 8 characters.
 
 # Built Using
 
-Handlebars.js, Node.js, Express.js, MySQL, Sequelize, bcrypt, questions from the-trivia-api.com, image from tenor.com, animation from animate.style.
+Handlebars.js, Node.js, Express.js, MySQL, Sequelize, bcrypt, Bootstrap, questions from the-trivia-api.com, image from tenor.com, animation from animate.style.
 
 # Authors
 
