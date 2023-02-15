@@ -194,3 +194,14 @@ aside {
   /* background-color: #7FFF00; */
   background: linear-gradient(0deg, rgba(145,168,132,1) 0%, rgba(96,246,3,1) 27%);
 }
+
+.highscores-btn {
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  color: var(--dark);
+  padding: 20px;
+  margin: 1rem;
+  /* background-color: #7FFF00; */
+  background: linear-gradient(0deg, rgba(145,168,132,1) 0%, rgba(96,246,3,1) 27%);
+}
