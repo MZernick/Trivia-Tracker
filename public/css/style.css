@@ -194,3 +194,8 @@ aside {
   /* background-color: #7FFF00; */
   background: linear-gradient(0deg, rgba(145,168,132,1) 0%, rgba(96,246,3,1) 27%);
 }
+
+.slim-btn {
+  padding: 2% !important;
+  margin: 2% !important;
+}

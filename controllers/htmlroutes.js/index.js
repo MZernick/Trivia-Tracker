@@ -45,7 +45,7 @@ router.get('/userscores', async (req, res) => {
   try {
     // Get all user scores and JOIN with user data
     const scoreData = await User.findByPk(req.session.user_id, {
-
+      
       include: [
         {
           model: Score,

@@ -7,12 +7,16 @@ const withAuth = require('../../utils/auth');
 router.get('/:id', async (req, res) => {
   try {
     // Get all scores and JOIN with user data
-    const scoreData = await Score.findOne(
+    const scoreData = await Score.findbypk(
       {
         where: {
           id: req.params.id,
           // user_id: req.session.user_id,
         },
+        order: [
+          ['date_created', 'DESC'],
+          ['time_created', 'ASC'],
+      ],
         include: [
           {
             model: User,
