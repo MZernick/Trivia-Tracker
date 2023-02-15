@@ -47,7 +47,7 @@ function renderQuestions() {
   btns.innerHTML = "";
   randomAnswers.forEach((answer) => {
     var button = document.createElement("button");
-    button.setAttribute("class", "text-center rounded-pill answer-btn");
+    button.setAttribute("class", "text-center animate__animated animate__rubberBand rounded-pill answer-btn");
     button.setAttribute("style", "background-color: #7FFF00;");
     button.setAttribute("value", answer);
     button.textContent = answer;

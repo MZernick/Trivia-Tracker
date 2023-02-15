@@ -1,12 +1,13 @@
 <main class="container mt-5">
   <div class="row">
     <div class="highscores-card mx-auto" style="max-width: 18rem;">
-      <h1 class="trivia-card-header">High Scores</h1>
+      <h1 class="user-card-header">High Scores</h1>
       <section>
         {{#each scores as |score index|}}
-        <div class="answer-btn">
+        <div class=" row highscores-btn animate__animated animate__backInDown ms-1 me-1">
 
-          <h5># {{score.tutor}}: {{score.user.username}} {{score.game_score}}</h5>
+          <h4 class="col">{{score.user.username}}</h4>
+          <h3 class="col">{{score.game_score}}</h3> 
         </div>
         {{/each}}
       </section>

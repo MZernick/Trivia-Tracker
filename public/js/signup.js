@@ -28,3 +28,13 @@ console.log(btnSignup);
 window.onload = function () {
   btnSignup.addEventListener("click", signupFormHandler);
 };
+
+function myFunction() {
+  var x = document.querySelector("#password-signup");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+  console.log(x);
+}
